@@ -5,7 +5,7 @@ namespace Api\Controller;
 use Think\Controller;
 
 header('Access-Control-Allow-Credentials:true');
-header('Access-Control-Allow-Origin:*'); //
+header('Access-Control-Allow-Origin:*');
 
 class UserController extends Controller
 {
@@ -15,9 +15,9 @@ class UserController extends Controller
      */
     public function login()
     {
-
-        $username = I('post.username');
-        $password = I('post.password');
+        $this->ajaxReturn(false);
+        exit;
+        $data = file_get_contents('php://input', 'r');
         if ($username == null || $password == null) {
             $this->ajaxReturn(false);
         } else {
@@ -33,10 +33,28 @@ class UserController extends Controller
      */
     public function checkUserName()
     {
-        $username = I('post.username');
-        if ($username !== null) {
+
+        $data = file_get_contents('php://input');
+        echo empty($data);
+
+        if ($data) {
+            $data = json_decode($data);
+            $username = $data->username;
             $res = D('User')->checkUserName($username);
             $this->ajaxReturn($res);
+        } else {
+            $this->ajaxReturn(false);
         }
+        // if ($username == null) {
+        //     $this->ajaxReturn(false);
+        // } else {
+        //     $res = D('User')->checkUserName($username);
+        //     $this->ajaxReturn($res);
+        // }
+    }
+
+    public function userInfo()
+    {
+        echo 1;
     }
 }

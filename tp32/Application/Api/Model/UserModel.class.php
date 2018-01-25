@@ -13,7 +13,7 @@ class UserModel extends Model
      * 用户登录
      * @param  [string] $username [用户名]
      * @param  [string] $password [密码]
-     * @return [json]           [返回ＪＳＯＮ]
+     * @return [json]           [返回json]
      */
     public function login($username, $password)
     {
@@ -26,9 +26,8 @@ class UserModel extends Model
             $res['token'] = $username;
             $res['message'] = '登录成功';
         } else {
-            $res['code'] = -1;
-            $res['token'] = '';
-            $res['message'] = '账号或密码错误';
+            $res['status'] = -1;
+            $res['message'] = '密码错误';
         }
         return $res;
     }
