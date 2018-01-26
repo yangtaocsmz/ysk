@@ -1,0 +1,3617 @@
+[ 2018-01-25T09:00:39+08:00 ] ::1 /tp32/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001093s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002047s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.007489s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007573s ]
+
+[ 2018-01-25T09:00:42+08:00 ] ::1 /tp32/Api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000683s ]
+
+[ 2018-01-25T09:00:48+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000833s ]
+
+[ 2018-01-25T09:00:49+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000680s ]
+
+[ 2018-01-25T09:01:05+08:00 ] ::1 /tp32/Api/user/checkUserName/username/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001094s ]
+
+[ 2018-01-25T09:01:08+08:00 ] ::1 /tp32/Api/user/checkUserName/username/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000686s ]
+
+[ 2018-01-25T09:01:09+08:00 ] ::1 /tp32/Api/user/checkUserName/username/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000736s ]
+
+[ 2018-01-25T09:01:10+08:00 ] ::1 /tp32/Api/user/checkUserName/username/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+
+[ 2018-01-25T09:01:11+08:00 ] ::1 /tp32/Api/user/checkUserName/username/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000761s ]
+
+[ 2018-01-25T09:01:12+08:00 ] ::1 /tp32/Api/user/checkUserName/username/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+
+[ 2018-01-25T09:01:13+08:00 ] ::1 /tp32/Api/user/checkUserName/username/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000678s ]
+
+[ 2018-01-25T09:02:22+08:00 ] ::1 /tp32/Api/user/checkUserName/username/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000697s ]
+
+[ 2018-01-25T09:02:28+08:00 ] ::1 /tp32/Api/user/checkUserName/username/fdafda
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000770s ]
+
+[ 2018-01-25T09:05:35+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000850s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005396s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.030368s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admi' ) LIMIT 1   [ RunTime:0.000273s ]
+
+[ 2018-01-25T09:05:41+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002088s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.008706s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006658s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000212s ]
+
+[ 2018-01-25T09:05:42+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000706s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.013864s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.008212s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000213s ]
+
+[ 2018-01-25T09:05:42+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000795s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007231s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.011703s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000228s ]
+
+[ 2018-01-25T09:05:43+08:00 ] ::1 /tp32/Api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000661s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006506s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006821s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) AND ( `password` = '21232f297a57a5a743894a0e4a801fc3' ) LIMIT 1   [ RunTime:0.000241s ]
+
+[ 2018-01-25T09:05:47+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000665s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006693s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007073s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000207s ]
+
+[ 2018-01-25T09:05:48+08:00 ] ::1 /tp32/Api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000679s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.008500s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007303s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) AND ( `password` = '21232f297a57a5a743894a0e4a801fc3' ) LIMIT 1   [ RunTime:0.000221s ]
+
+[ 2018-01-25T09:10:05+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001299s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.008030s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.009372s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000286s ]
+
+[ 2018-01-25T09:10:06+08:00 ] ::1 /tp32/Api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000961s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.015124s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.040858s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) AND ( `password` = '21232f297a57a5a743894a0e4a801fc3' ) LIMIT 1   [ RunTime:0.000526s ]
+
+[ 2018-01-25T09:13:57+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000837s ]
+
+[ 2018-01-25T09:14:08+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000670s ]
+
+[ 2018-01-25T09:14:14+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000824s ]
+
+[ 2018-01-25T09:14:14+08:00 ] ::1 /tp32/Api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000755s ]
+
+[ 2018-01-25T09:14:26+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000723s ]
+
+[ 2018-01-25T09:15:09+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001031s ]
+
+[ 2018-01-25T09:15:11+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000852s ]
+
+[ 2018-01-25T09:15:13+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000708s ]
+
+[ 2018-01-25T09:15:21+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000861s ]
+
+[ 2018-01-25T09:15:28+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000730s ]
+
+[ 2018-01-25T09:15:29+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000951s ]
+
+[ 2018-01-25T09:15:30+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000791s ]
+
+[ 2018-01-25T09:15:30+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000959s ]
+
+[ 2018-01-25T09:15:31+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000702s ]
+
+[ 2018-01-25T09:15:31+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000708s ]
+
+[ 2018-01-25T09:15:31+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000703s ]
+
+[ 2018-01-25T09:15:31+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000710s ]
+
+[ 2018-01-25T09:15:32+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000919s ]
+
+[ 2018-01-25T09:15:32+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000932s ]
+
+[ 2018-01-25T09:15:32+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000897s ]
+
+[ 2018-01-25T09:15:32+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000724s ]
+
+[ 2018-01-25T09:15:38+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000754s ]
+
+[ 2018-01-25T09:15:39+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000782s ]
+
+[ 2018-01-25T09:15:40+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000866s ]
+
+[ 2018-01-25T09:15:43+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000666s ]
+
+[ 2018-01-25T09:15:46+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000661s ]
+
+[ 2018-01-25T09:15:47+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+
+[ 2018-01-25T09:16:14+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000833s ]
+
+[ 2018-01-25T09:16:16+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000738s ]
+
+[ 2018-01-25T09:16:18+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000765s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007319s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006912s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'fda' ) LIMIT 1   [ RunTime:0.000223s ]
+
+[ 2018-01-25T09:16:24+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000671s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007306s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006810s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'dfdd' ) LIMIT 1   [ RunTime:0.000207s ]
+
+[ 2018-01-25T09:16:27+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000697s ]
+
+[ 2018-01-25T09:16:29+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000677s ]
+
+[ 2018-01-25T09:17:04+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000844s ]
+
+[ 2018-01-25T09:17:07+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000668s ]
+
+[ 2018-01-25T09:18:30+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000507s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000813s ]
+
+[ 2018-01-25T09:18:32+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001270s ]
+
+[ 2018-01-25T09:18:33+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000731s ]
+
+[ 2018-01-25T09:18:33+08:00 ] ::1 /tp32/index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000806s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000475s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000517s ]
+
+[ 2018-01-25T09:18:34+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
+
+[ 2018-01-25T09:18:35+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000909s ]
+
+[ 2018-01-25T09:18:51+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000686s ]
+
+[ 2018-01-25T09:18:52+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000703s ]
+
+[ 2018-01-25T09:18:55+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000730s ]
+
+[ 2018-01-25T09:18:57+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000710s ]
+
+[ 2018-01-25T09:19:04+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000687s ]
+
+[ 2018-01-25T09:19:06+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000663s ]
+
+[ 2018-01-25T09:19:08+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000784s ]
+
+[ 2018-01-25T09:26:53+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000916s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006756s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007404s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'fdaf' ) LIMIT 1   [ RunTime:0.000218s ]
+
+[ 2018-01-25T09:26:57+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000703s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005280s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007131s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'fdaffdafda' ) LIMIT 1   [ RunTime:0.000220s ]
+
+[ 2018-01-25T09:27:00+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007422s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006891s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'fdaffdafdafafaf' ) LIMIT 1   [ RunTime:0.000250s ]
+
+[ 2018-01-25T09:27:07+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000720s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007969s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.008206s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'fdaffdafdafafaf' ) LIMIT 1   [ RunTime:0.000210s ]
+
+[ 2018-01-25T09:27:09+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000688s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.010504s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007455s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'fdasdfda' ) LIMIT 1   [ RunTime:0.000222s ]
+
+[ 2018-01-25T09:27:12+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000696s ]
+
+[ 2018-01-25T09:27:18+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000686s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.027872s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007149s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000221s ]
+
+[ 2018-01-25T09:27:20+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000683s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007096s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006810s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'fda' ) LIMIT 1   [ RunTime:0.000221s ]
+
+[ 2018-01-25T09:27:32+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002314s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007713s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.015179s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'fda' ) LIMIT 1   [ RunTime:0.000253s ]
+
+[ 2018-01-25T09:28:03+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000698s ]
+
+[ 2018-01-25T09:29:07+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000804s ]
+
+[ 2018-01-25T09:29:08+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000811s ]
+
+[ 2018-01-25T09:29:10+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000773s ]
+
+[ 2018-01-25T09:37:14+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000830s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005820s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007244s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'fdaf' ) LIMIT 1   [ RunTime:0.000238s ]
+
+[ 2018-01-25T09:37:19+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000822s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006701s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007134s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'f' ) LIMIT 1   [ RunTime:0.000210s ]
+
+[ 2018-01-25T09:37:20+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000794s ]
+
+[ 2018-01-25T09:37:27+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000669s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005878s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006789s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'fdaf' ) LIMIT 1   [ RunTime:0.000211s ]
+
+[ 2018-01-25T09:37:29+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000665s ]
+
+[ 2018-01-25T09:37:31+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000865s ]
+
+[ 2018-01-25T09:37:34+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000734s ]
+
+[ 2018-01-25T09:37:35+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000734s ]
+
+[ 2018-01-25T09:37:36+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000697s ]
+
+[ 2018-01-25T09:37:37+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000791s ]
+
+[ 2018-01-25T09:38:42+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+
+[ 2018-01-25T09:39:58+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000843s ]
+
+[ 2018-01-25T09:51:50+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000909s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007425s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006572s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'fdaf' ) LIMIT 1   [ RunTime:0.000214s ]
+
+[ 2018-01-25T09:52:14+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000886s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.008013s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006604s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'fdaf' ) LIMIT 1   [ RunTime:0.000221s ]
+
+[ 2018-01-25T09:53:05+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000740s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005969s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007329s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000220s ]
+
+[ 2018-01-25T09:53:07+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000666s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006286s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006945s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'fdafda' ) LIMIT 1   [ RunTime:0.000223s ]
+
+[ 2018-01-25T09:53:20+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000879s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006331s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006608s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'fdafa' ) LIMIT 1   [ RunTime:0.000204s ]
+
+[ 2018-01-25T09:53:26+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000677s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.008119s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007046s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000212s ]
+
+[ 2018-01-25T09:54:21+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000507s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000873s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006343s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007059s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admi' ) LIMIT 1   [ RunTime:0.000208s ]
+
+[ 2018-01-25T09:54:23+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000712s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.010245s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007170s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admi' ) LIMIT 1   [ RunTime:0.000240s ]
+
+[ 2018-01-25T09:54:26+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000710s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007093s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006674s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admi' ) LIMIT 1   [ RunTime:0.000215s ]
+
+[ 2018-01-25T09:54:28+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000806s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.010390s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007265s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admi' ) LIMIT 1   [ RunTime:0.000211s ]
+
+[ 2018-01-25T09:54:33+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000772s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006889s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007395s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admi' ) LIMIT 1   [ RunTime:0.000207s ]
+
+[ 2018-01-25T09:54:36+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000694s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005541s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006733s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admi' ) LIMIT 1   [ RunTime:0.000211s ]
+
+[ 2018-01-25T09:54:39+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000767s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.010504s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006843s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admirewrwe' ) LIMIT 1   [ RunTime:0.000210s ]
+
+[ 2018-01-25T09:54:40+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000938s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.010775s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admirewrwe' ) LIMIT 1   [ RunTime:0.000210s ]
+
+[ 2018-01-25T09:54:44+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000777s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006144s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006845s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admirewrwe' ) LIMIT 1   [ RunTime:0.000226s ]
+
+[ 2018-01-25T09:54:53+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001039s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006330s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.008058s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'fdafaf' ) LIMIT 1   [ RunTime:0.000249s ]
+
+[ 2018-01-25T09:54:53+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000720s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.003058s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.003994s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'fdafaf' ) LIMIT 1   [ RunTime:0.000191s ]
+
+[ 2018-01-25T09:54:57+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006599s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006818s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'fdafaf' ) LIMIT 1   [ RunTime:0.000208s ]
+
+[ 2018-01-25T10:03:37+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000982s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007356s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007463s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'fdafaf' ) LIMIT 1   [ RunTime:0.000246s ]
+
+[ 2018-01-25T10:04:21+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001090s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007183s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007129s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000238s ]
+
+[ 2018-01-25T10:04:26+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000675s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006415s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006524s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000267s ]
+
+[ 2018-01-25T10:04:29+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000888s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.010055s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006647s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000203s ]
+
+[ 2018-01-25T10:04:32+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000789s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.008673s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.011333s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000331s ]
+
+[ 2018-01-25T10:04:32+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000902s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007222s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.010992s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000493s ]
+
+[ 2018-01-25T10:04:33+08:00 ] ::1 /tp32/Api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000807s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.008639s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006892s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) AND ( `password` = 'bba21d4eeb45d641bffd0a5eb97fc705' ) LIMIT 1   [ RunTime:0.000213s ]
+
+[ 2018-01-25T10:04:38+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000716s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006525s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006521s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admi' ) LIMIT 1   [ RunTime:0.000212s ]
+
+[ 2018-01-25T10:04:40+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000715s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006423s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007463s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admi' ) LIMIT 1   [ RunTime:0.000209s ]
+
+[ 2018-01-25T10:04:43+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000875s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007985s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007043s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admi' ) LIMIT 1   [ RunTime:0.000213s ]
+
+[ 2018-01-25T10:05:11+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000836s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.013045s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.017043s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'fdaf' ) LIMIT 1   [ RunTime:0.000449s ]
+
+[ 2018-01-25T10:05:15+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000844s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007293s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006888s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'fdaf' ) LIMIT 1   [ RunTime:0.000206s ]
+
+[ 2018-01-25T10:05:26+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000809s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006947s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006929s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'fdaf' ) LIMIT 1   [ RunTime:0.000230s ]
+
+[ 2018-01-25T10:05:30+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000725s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005583s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007616s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'fdaf' ) LIMIT 1   [ RunTime:0.000217s ]
+
+[ 2018-01-25T10:07:48+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000954s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.009957s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006577s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'fdaf' ) LIMIT 1   [ RunTime:0.000211s ]
+
+[ 2018-01-25T10:07:54+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000801s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.010122s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007319s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'fdaf' ) LIMIT 1   [ RunTime:0.000258s ]
+
+[ 2018-01-25T10:08:04+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000869s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001574s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005752s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006667s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'fdaf' ) LIMIT 1   [ RunTime:0.000203s ]
+
+[ 2018-01-25T10:08:06+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001114s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006428s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007593s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'fdaf' ) LIMIT 1   [ RunTime:0.000305s ]
+
+[ 2018-01-25T10:08:13+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000995s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007914s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006640s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'fdafda' ) LIMIT 1   [ RunTime:0.000203s ]
+
+[ 2018-01-25T10:08:20+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000846s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006519s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006854s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'faf' ) LIMIT 1   [ RunTime:0.000242s ]
+
+[ 2018-01-25T10:14:35+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000806s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.010843s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007140s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'fafd' ) LIMIT 1   [ RunTime:0.000222s ]
+
+[ 2018-01-25T10:14:37+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000681s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.008110s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007443s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'fafd' ) LIMIT 1   [ RunTime:0.000205s ]
+
+[ 2018-01-25T10:14:55+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000694s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.008002s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006521s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'fafd' ) LIMIT 1   [ RunTime:0.000203s ]
+
+[ 2018-01-25T10:15:04+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000675s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006035s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007340s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'daqinglu' ) LIMIT 1   [ RunTime:0.000222s ]
+
+[ 2018-01-25T10:18:04+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.009985s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006902s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'fd' ) LIMIT 1   [ RunTime:0.000231s ]
+
+[ 2018-01-25T10:18:07+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001099s ]
+
+[ 2018-01-25T10:18:08+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000742s ]
+
+[ 2018-01-25T10:18:10+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000704s ]
+
+[ 2018-01-25T10:19:39+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000686s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.010208s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007067s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = ' ' ) LIMIT 1   [ RunTime:0.000233s ]
+
+[ 2018-01-25T10:19:41+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000750s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007156s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006959s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = ' ' ) LIMIT 1   [ RunTime:0.000276s ]
+
+[ 2018-01-25T10:19:45+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000664s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007721s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006637s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = ' ' ) LIMIT 1   [ RunTime:0.000245s ]
+
+[ 2018-01-25T10:22:36+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000837s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006403s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = '   ' ) LIMIT 1   [ RunTime:0.000234s ]
+
+[ 2018-01-25T10:23:34+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000684s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006050s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006959s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = '   ' ) LIMIT 1   [ RunTime:0.000295s ]
+
+[ 2018-01-25T10:24:40+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001044s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006121s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006616s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = '    ' ) LIMIT 1   [ RunTime:0.000205s ]
+
+[ 2018-01-25T10:37:06+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000916s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005700s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007065s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = '  ' ) LIMIT 1   [ RunTime:0.000255s ]
+
+[ 2018-01-25T10:37:08+08:00 ] ::1 /tp32/index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000800s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000481s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000524s ]
+
+[ 2018-01-25T10:37:08+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005598s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.009208s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = '  ' ) LIMIT 1   [ RunTime:0.000324s ]
+
+[ 2018-01-25T10:37:10+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000665s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006968s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006686s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = '    ' ) LIMIT 1   [ RunTime:0.000206s ]
+
+[ 2018-01-25T10:37:51+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000718s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.008082s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = '      ' ) LIMIT 1   [ RunTime:0.000226s ]
+
+[ 2018-01-25T10:39:19+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000782s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005759s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006955s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = '    ' ) LIMIT 1   [ RunTime:0.000221s ]
+
+[ 2018-01-25T11:05:41+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000974s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.008000s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.009474s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000318s ]
+
+[ 2018-01-25T11:08:39+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000783s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.014343s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.014506s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000402s ]
+
+[ 2018-01-25T11:08:47+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000689s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.008279s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006889s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'fdafda' ) LIMIT 1   [ RunTime:0.000205s ]
+
+[ 2018-01-25T11:08:52+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000919s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.008168s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.010907s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'fdafda' ) LIMIT 1   [ RunTime:0.000301s ]
+
+[ 2018-01-25T11:09:13+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000705s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007726s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006730s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'fdafda' ) LIMIT 1   [ RunTime:0.000203s ]
+
+[ 2018-01-25T11:09:15+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000661s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007025s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006739s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'fdafafa' ) LIMIT 1   [ RunTime:0.000203s ]
+
+[ 2018-01-25T11:09:19+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000703s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007749s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006814s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'fdafafafdasfafafaf' ) LIMIT 1   [ RunTime:0.000170s ]
+
+[ 2018-01-25T11:09:23+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000749s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007326s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006875s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'fdafafafdasfafafaffdafdasf' ) LIMIT 1   [ RunTime:0.000206s ]
+
+[ 2018-01-25T11:10:06+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000917s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.013372s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007603s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000229s ]
+
+[ 2018-01-25T11:10:11+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000695s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007165s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006802s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admi' ) LIMIT 1   [ RunTime:0.000208s ]
+
+[ 2018-01-25T11:10:15+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000899s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007014s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006849s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admifff' ) LIMIT 1   [ RunTime:0.000230s ]
+
+[ 2018-01-25T11:10:28+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000666s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007091s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.008113s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'Adfd' ) LIMIT 1   [ RunTime:0.000268s ]
+
+[ 2018-01-25T11:12:01+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000787s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.010372s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007123s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = '32432' ) LIMIT 1   [ RunTime:0.000227s ]
+
+[ 2018-01-25T11:12:04+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000912s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.013521s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.016239s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = '32432' ) LIMIT 1   [ RunTime:0.000347s ]
+
+[ 2018-01-25T11:12:10+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000692s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005757s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006719s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = '32432' ) LIMIT 1   [ RunTime:0.000209s ]
+
+[ 2018-01-25T11:12:28+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000639s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006439s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006915s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000207s ]
+
+[ 2018-01-25T11:12:34+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001211s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005861s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007284s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admi' ) LIMIT 1   [ RunTime:0.000220s ]
+
+[ 2018-01-25T11:13:23+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000878s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007855s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006881s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000238s ]
+
+[ 2018-01-25T11:13:25+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000684s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007671s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006731s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000208s ]
+
+[ 2018-01-25T11:13:26+08:00 ] ::1 /tp32/Api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000770s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.009717s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.010488s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) AND ( `password` = '21232f297a57a5a743894a0e4a801fc3' ) LIMIT 1   [ RunTime:0.000204s ]
+
+[ 2018-01-25T11:18:45+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000785s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007321s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006983s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000241s ]
+
+[ 2018-01-25T11:18:48+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000696s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.010327s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007118s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000210s ]
+
+[ 2018-01-25T11:18:49+08:00 ] ::1 /tp32/Api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001145s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.008724s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.008539s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) AND ( `password` = 'd147eee5e275ec836065c45c15c70681' ) LIMIT 1   [ RunTime:0.000251s ]
+
+[ 2018-01-25T11:19:04+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000952s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006631s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007024s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000224s ]
+
+[ 2018-01-25T11:19:05+08:00 ] ::1 /tp32/Api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000924s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006363s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007128s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) AND ( `password` = 'd147eee5e275ec836065c45c15c70681' ) LIMIT 1   [ RunTime:0.000213s ]
+
+[ 2018-01-25T11:34:24+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000830s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.012982s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.015423s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000223s ]
+
+[ 2018-01-25T11:34:51+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000681s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.013556s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.048976s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000231s ]
+
+[ 2018-01-25T11:34:54+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000742s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007292s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.012532s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000206s ]
+
+[ 2018-01-25T11:34:55+08:00 ] ::1 /tp32/Api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000834s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.014156s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.013927s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) AND ( `password` = '98bb3d726f0eddf9d56c7858d0f0791f' ) LIMIT 1   [ RunTime:0.000377s ]
+
+[ 2018-01-25T11:36:32+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000838s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.019453s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006908s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000244s ]
+
+[ 2018-01-25T11:36:33+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000702s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006310s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007838s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000237s ]
+
+[ 2018-01-25T11:36:34+08:00 ] ::1 /tp32/Api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000683s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.015248s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.017923s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) AND ( `password` = '8f9cf3f5789e16124f38936954a98668' ) LIMIT 1   [ RunTime:0.000556s ]
+
+[ 2018-01-25T11:36:55+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000663s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007059s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.008644s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000273s ]
+
+[ 2018-01-25T11:36:56+08:00 ] ::1 /tp32/Api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000784s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.014425s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.009178s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) AND ( `password` = '8f9cf3f5789e16124f38936954a98668' ) LIMIT 1   [ RunTime:0.000214s ]
+
+[ 2018-01-25T11:37:00+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000687s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006808s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.100814s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000234s ]
+
+[ 2018-01-25T11:37:01+08:00 ] ::1 /tp32/Api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000805s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007558s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007470s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) AND ( `password` = '8f9cf3f5789e16124f38936954a98668' ) LIMIT 1   [ RunTime:0.000212s ]
+
+[ 2018-01-25T11:37:07+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001415s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.008345s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.011414s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000326s ]
+
+[ 2018-01-25T11:37:08+08:00 ] ::1 /tp32/Api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001473s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.010930s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007269s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) AND ( `password` = '8f9cf3f5789e16124f38936954a98668' ) LIMIT 1   [ RunTime:0.000222s ]
+
+[ 2018-01-25T11:37:11+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000666s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007868s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006634s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000211s ]
+
+[ 2018-01-25T11:37:12+08:00 ] ::1 /tp32/Api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000674s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.014545s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.018220s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) AND ( `password` = '8f9cf3f5789e16124f38936954a98668' ) LIMIT 1   [ RunTime:0.000541s ]
+
+[ 2018-01-25T11:38:06+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000687s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.008540s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007876s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000285s ]
+
+[ 2018-01-25T11:38:06+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000850s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.008684s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.011755s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000247s ]
+
+[ 2018-01-25T11:38:07+08:00 ] ::1 /tp32/Api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001082s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.011363s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007361s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) AND ( `password` = '8f9cf3f5789e16124f38936954a98668' ) LIMIT 1   [ RunTime:0.000234s ]
+
+[ 2018-01-25T11:38:11+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000722s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.010164s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006865s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000215s ]
+
+[ 2018-01-25T11:38:12+08:00 ] ::1 /tp32/Api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000663s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007474s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006771s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) AND ( `password` = '8f9cf3f5789e16124f38936954a98668' ) LIMIT 1   [ RunTime:0.000205s ]
+
+[ 2018-01-25T11:38:44+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007941s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006984s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000241s ]
+
+[ 2018-01-25T11:38:45+08:00 ] ::1 /tp32/Api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000920s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.015023s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.017915s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) AND ( `password` = '8f9cf3f5789e16124f38936954a98668' ) LIMIT 1   [ RunTime:0.000523s ]
+
+[ 2018-01-25T11:38:50+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000666s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.010648s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006996s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admi' ) LIMIT 1   [ RunTime:0.000220s ]
+
+[ 2018-01-25T11:40:54+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000791s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.010857s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006906s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000216s ]
+
+[ 2018-01-25T11:42:07+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000666s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.009542s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006723s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000210s ]
+
+[ 2018-01-25T11:44:07+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000790s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006035s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.008010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000294s ]
+
+[ 2018-01-25T11:44:09+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007459s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006603s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000221s ]
+
+[ 2018-01-25T11:44:11+08:00 ] ::1 /tp32/Api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000847s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.009707s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.009591s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) AND ( `password` = '8f9cf3f5789e16124f38936954a98668' ) LIMIT 1   [ RunTime:0.000249s ]
+
+[ 2018-01-25T11:44:24+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000722s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007719s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.008032s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000199s ]
+
+[ 2018-01-25T11:44:25+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000715s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007245s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006711s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000208s ]
+
+[ 2018-01-25T11:44:25+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000832s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.002923s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.004222s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000184s ]
+
+[ 2018-01-25T11:44:26+08:00 ] ::1 /tp32/Api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000798s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.010616s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006601s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) AND ( `password` = '8f9cf3f5789e16124f38936954a98668' ) LIMIT 1   [ RunTime:0.000206s ]
+
+[ 2018-01-25T11:44:36+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000665s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.010461s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006953s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000213s ]
+
+[ 2018-01-25T11:44:37+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000669s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.010195s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006506s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000201s ]
+
+[ 2018-01-25T11:45:59+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001057s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.010748s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007941s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admi' ) LIMIT 1   [ RunTime:0.000216s ]
+
+[ 2018-01-25T11:46:03+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000659s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005849s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006824s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admi' ) LIMIT 1   [ RunTime:0.000233s ]
+
+[ 2018-01-25T11:46:05+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000783s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.010105s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006959s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admi' ) LIMIT 1   [ RunTime:0.000228s ]
+
+[ 2018-01-25T11:46:11+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001150s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005774s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006725s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admi' ) LIMIT 1   [ RunTime:0.000204s ]
+
+[ 2018-01-25T11:51:57+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000869s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007099s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007175s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000186s ]
+
+[ 2018-01-25T13:20:32+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001298s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.010596s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.012256s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000380s ]
+
+[ 2018-01-25T13:20:33+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001581s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.009362s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006497s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000207s ]
+
+[ 2018-01-25T13:20:34+08:00 ] ::1 /tp32/Api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000700s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.009735s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007312s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) AND ( `password` = '21232f297a57a5a743894a0e4a801fc3' ) LIMIT 1   [ RunTime:0.000213s ]
+
+[ 2018-01-25T13:20:41+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007148s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.009051s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000273s ]
+
+[ 2018-01-25T13:20:42+08:00 ] ::1 /tp32/Api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000838s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007267s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007620s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) AND ( `password` = '21232f297a57a5a743894a0e4a801fc3' ) LIMIT 1   [ RunTime:0.000211s ]
+
+[ 2018-01-25T13:20:45+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000778s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007979s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007511s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000209s ]
+
+[ 2018-01-25T13:20:47+08:00 ] ::1 /tp32/Api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000825s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.011688s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007615s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) AND ( `password` = '21232f297a57a5a743894a0e4a801fc3' ) LIMIT 1   [ RunTime:0.000242s ]
+
+[ 2018-01-25T13:32:17+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000840s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.014027s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.015907s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000480s ]
+
+[ 2018-01-25T13:32:18+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000849s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005783s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007451s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000224s ]
+
+[ 2018-01-25T13:32:19+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000692s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.014030s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.015899s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000206s ]
+
+[ 2018-01-25T13:32:20+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000713s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.008457s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007453s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000208s ]
+
+[ 2018-01-25T13:32:21+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000848s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.014205s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.013114s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000342s ]
+
+[ 2018-01-25T13:33:18+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000713s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007013s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007227s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000207s ]
+
+[ 2018-01-25T13:33:21+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000679s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006715s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007086s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000206s ]
+
+[ 2018-01-25T13:34:15+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000667s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006496s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006512s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admi' ) LIMIT 1   [ RunTime:0.000222s ]
+
+[ 2018-01-25T13:37:01+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001088s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.010752s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006630s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000180s ]
+
+[ 2018-01-25T13:37:05+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000834s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007761s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.033155s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000233s ]
+
+[ 2018-01-25T13:37:06+08:00 ] ::1 /tp32/Api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001012s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.015017s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.018035s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) AND ( `password` = '21232f297a57a5a743894a0e4a801fc3' ) LIMIT 1   [ RunTime:0.000511s ]
+
+[ 2018-01-25T13:41:59+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000798s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.010708s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.055452s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000222s ]
+
+[ 2018-01-25T13:42:00+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007501s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006595s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000206s ]
+
+[ 2018-01-25T13:42:01+08:00 ] ::1 /tp32/Api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000956s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006742s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007334s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) AND ( `password` = '21232f297a57a5a743894a0e4a801fc3' ) LIMIT 1   [ RunTime:0.000237s ]
+
+[ 2018-01-25T13:46:55+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000507s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000824s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006988s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006778s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000218s ]
+
+[ 2018-01-25T13:47:00+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.016479s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.065029s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000470s ]
+
+[ 2018-01-25T13:47:01+08:00 ] ::1 /tp32/Api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001248s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005945s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006833s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) AND ( `password` = '21232f297a57a5a743894a0e4a801fc3' ) LIMIT 1   [ RunTime:0.000213s ]
+
+[ 2018-01-25T13:49:39+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001065s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.010266s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006988s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000221s ]
+
+[ 2018-01-25T13:49:41+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000694s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007122s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000212s ]
+
+[ 2018-01-25T13:49:43+08:00 ] ::1 /tp32/Api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000800s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006404s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006730s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) AND ( `password` = '21232f297a57a5a743894a0e4a801fc3' ) LIMIT 1   [ RunTime:0.000207s ]
+
+[ 2018-01-25T13:51:08+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000677s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.008173s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006535s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000222s ]
+
+[ 2018-01-25T13:51:17+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000668s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.008192s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007291s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000204s ]
+
+[ 2018-01-25T13:51:18+08:00 ] ::1 /tp32/Api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000774s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.014571s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.018311s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) AND ( `password` = '21232f297a57a5a743894a0e4a801fc3' ) LIMIT 1   [ RunTime:0.000508s ]
+
+[ 2018-01-25T13:51:18+08:00 ] ::1 /tp32/Api/user/info?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000776s ]
+ERR: 非法操作:info
+
+[ 2018-01-25T13:52:41+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000920s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007437s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007164s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000217s ]
+
+[ 2018-01-25T13:52:43+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000912s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.012209s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.062683s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000433s ]
+
+[ 2018-01-25T13:52:44+08:00 ] ::1 /tp32/Api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000943s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007514s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007049s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) AND ( `password` = '21232f297a57a5a743894a0e4a801fc3' ) LIMIT 1   [ RunTime:0.000214s ]
+
+[ 2018-01-25T13:52:44+08:00 ] ::1 /tp32/Api/user/info?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000816s ]
+ERR: 非法操作:info
+
+[ 2018-01-25T13:52:51+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000748s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007497s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007753s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000229s ]
+
+[ 2018-01-25T13:52:52+08:00 ] ::1 /tp32/Api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000676s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.010344s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007324s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) AND ( `password` = '21232f297a57a5a743894a0e4a801fc3' ) LIMIT 1   [ RunTime:0.000225s ]
+
+[ 2018-01-25T13:52:52+08:00 ] ::1 /tp32/Api/user/info?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000756s ]
+ERR: 非法操作:info
+
+[ 2018-01-25T13:53:00+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000868s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007515s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.009752s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000288s ]
+
+[ 2018-01-25T13:53:01+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000825s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007276s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006623s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000211s ]
+
+[ 2018-01-25T13:53:02+08:00 ] ::1 /tp32/Api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000772s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.014711s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.018272s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) AND ( `password` = '21232f297a57a5a743894a0e4a801fc3' ) LIMIT 1   [ RunTime:0.000528s ]
+
+[ 2018-01-25T13:53:03+08:00 ] ::1 /tp32/Api/user/info?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000825s ]
+ERR: 非法操作:info
+
+[ 2018-01-25T13:53:09+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001238s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007645s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006484s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000200s ]
+
+[ 2018-01-25T13:53:11+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001032s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007593s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006641s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000208s ]
+
+[ 2018-01-25T13:53:12+08:00 ] ::1 /tp32/Api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000669s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.010453s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007067s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) AND ( `password` = '21232f297a57a5a743894a0e4a801fc3' ) LIMIT 1   [ RunTime:0.000214s ]
+
+[ 2018-01-25T13:53:12+08:00 ] ::1 /tp32/Api/user/info?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000719s ]
+ERR: 非法操作:info
+
+[ 2018-01-25T13:54:22+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000729s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006301s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.008941s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000198s ]
+
+[ 2018-01-25T13:54:25+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000825s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005592s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.009748s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000165s ]
+
+[ 2018-01-25T13:54:26+08:00 ] ::1 /tp32/Api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001335s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005801s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007952s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) AND ( `password` = '21232f297a57a5a743894a0e4a801fc3' ) LIMIT 1   [ RunTime:0.000212s ]
+
+[ 2018-01-25T13:54:26+08:00 ] ::1 /tp32/Api/user/info?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000755s ]
+ERR: 非法操作:info
+
+[ 2018-01-25T13:55:34+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000823s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005383s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.008950s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000252s ]
+
+[ 2018-01-25T13:55:38+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000880s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005751s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006933s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000215s ]
+
+[ 2018-01-25T13:55:39+08:00 ] ::1 /tp32/Api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000761s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005544s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007185s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) AND ( `password` = '21232f297a57a5a743894a0e4a801fc3' ) LIMIT 1   [ RunTime:0.000232s ]
+
+[ 2018-01-25T13:55:39+08:00 ] ::1 /tp32/Api/user/info?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000799s ]
+ERR: 非法操作:info
+
+[ 2018-01-25T13:57:55+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000798s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006645s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.009281s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000214s ]
+
+[ 2018-01-25T13:57:57+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000685s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007603s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006653s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000205s ]
+
+[ 2018-01-25T13:57:58+08:00 ] ::1 /tp32/Api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001061s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.008158s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.010513s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) AND ( `password` = '21232f297a57a5a743894a0e4a801fc3' ) LIMIT 1   [ RunTime:0.000318s ]
+
+[ 2018-01-25T13:57:58+08:00 ] ::1 /tp32/Api/user/info?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000887s ]
+ERR: 非法操作:info
+
+[ 2018-01-25T13:58:29+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000649s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007955s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006791s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000215s ]
+
+[ 2018-01-25T13:58:31+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000725s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006593s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006830s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000200s ]
+
+[ 2018-01-25T13:58:32+08:00 ] ::1 /tp32/Api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000914s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.008283s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007413s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) AND ( `password` = '21232f297a57a5a743894a0e4a801fc3' ) LIMIT 1   [ RunTime:0.000215s ]
+
+[ 2018-01-25T13:58:32+08:00 ] ::1 /tp32/Api/user/info?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000860s ]
+ERR: 非法操作:info
+
+[ 2018-01-25T13:59:06+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000727s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007996s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.008780s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000218s ]
+
+[ 2018-01-25T13:59:06+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000860s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004770s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.010951s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000293s ]
+
+[ 2018-01-25T13:59:07+08:00 ] ::1 /tp32/Api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000729s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.011093s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.023023s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) AND ( `password` = '21232f297a57a5a743894a0e4a801fc3' ) LIMIT 1   [ RunTime:0.000215s ]
+
+[ 2018-01-25T13:59:07+08:00 ] ::1 /tp32/Api/user/info?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000858s ]
+ERR: 非法操作:info
+
+[ 2018-01-25T13:59:10+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000753s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.011860s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.008603s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000215s ]
+
+[ 2018-01-25T13:59:11+08:00 ] ::1 /tp32/Api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000666s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.016277s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.015177s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) AND ( `password` = '21232f297a57a5a743894a0e4a801fc3' ) LIMIT 1   [ RunTime:0.000307s ]
+
+[ 2018-01-25T13:59:11+08:00 ] ::1 /tp32/Api/user/info?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000824s ]
+ERR: 非法操作:info
+
+[ 2018-01-25T14:00:06+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001221s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.010327s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006704s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000211s ]
+
+[ 2018-01-25T14:00:08+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001089s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.008645s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006642s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000219s ]
+
+[ 2018-01-25T14:00:09+08:00 ] ::1 /tp32/Api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001534s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.015320s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.011795s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) AND ( `password` = '21232f297a57a5a743894a0e4a801fc3' ) LIMIT 1   [ RunTime:0.000318s ]
+
+[ 2018-01-25T14:00:09+08:00 ] ::1 /tp32/Api/user/info?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000776s ]
+ERR: 非法操作:info
+
+[ 2018-01-25T14:08:17+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000886s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007057s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006674s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000211s ]
+
+[ 2018-01-25T14:08:18+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000781s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.010549s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006592s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000220s ]
+
+[ 2018-01-25T14:08:19+08:00 ] ::1 /tp32/Api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000674s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.008406s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006847s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) AND ( `password` = '21232f297a57a5a743894a0e4a801fc3' ) LIMIT 1   [ RunTime:0.000207s ]
+
+[ 2018-01-25T14:08:32+08:00 ] ::1 /tp32/Api/user/logout
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000669s ]
+ERR: 非法操作:logout
+
+[ 2018-01-25T14:19:49+08:00 ] ::1 /tp32/Api/user/info?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000801s ]
+ERR: 非法操作:info
+
+[ 2018-01-25T14:25:15+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000784s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.008252s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007417s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'amdin' ) LIMIT 1   [ RunTime:0.000233s ]
+
+[ 2018-01-25T14:25:16+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000671s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.010062s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006674s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'amdin' ) LIMIT 1   [ RunTime:0.000204s ]
+
+[ 2018-01-25T14:25:20+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000661s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.010106s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007044s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000219s ]
+
+[ 2018-01-25T14:25:22+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000642s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005624s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006401s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000218s ]
+
+[ 2018-01-25T14:25:23+08:00 ] ::1 /tp32/Api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000685s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007178s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006759s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) AND ( `password` = '21232f297a57a5a743894a0e4a801fc3' ) LIMIT 1   [ RunTime:0.000265s ]
+
+[ 2018-01-25T14:25:23+08:00 ] ::1 /tp32/Api/user/info?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000737s ]
+ERR: 非法操作:info
+
+[ 2018-01-25T14:44:33+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000803s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007201s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007206s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000251s ]
+
+[ 2018-01-25T14:44:34+08:00 ] ::1 /tp32/Api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000898s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.014860s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.018351s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) AND ( `password` = '21232f297a57a5a743894a0e4a801fc3' ) LIMIT 1   [ RunTime:0.000240s ]
+
+[ 2018-01-25T14:44:34+08:00 ] ::1 /tp32/Api/user/info?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000665s ]
+ERR: 非法操作:info
+
+[ 2018-01-25T14:44:37+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.012654s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007209s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000240s ]
+
+[ 2018-01-25T14:44:38+08:00 ] ::1 /tp32/Api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000938s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005955s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.015444s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) AND ( `password` = '21232f297a57a5a743894a0e4a801fc3' ) LIMIT 1   [ RunTime:0.000234s ]
+
+[ 2018-01-25T14:44:38+08:00 ] ::1 /tp32/Api/user/info?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000669s ]
+ERR: 非法操作:info
+
+[ 2018-01-25T14:44:48+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000952s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007556s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006582s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000201s ]
+
+[ 2018-01-25T14:44:49+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000792s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006696s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.018500s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000207s ]
+
+[ 2018-01-25T14:44:50+08:00 ] ::1 /tp32/Api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000669s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006936s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.008433s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) AND ( `password` = '21232f297a57a5a743894a0e4a801fc3' ) LIMIT 1   [ RunTime:0.000273s ]
+
+[ 2018-01-25T14:44:50+08:00 ] ::1 /tp32/Api/user/info?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000784s ]
+ERR: 非法操作:info
+
+[ 2018-01-25T14:47:24+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000806s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006211s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006765s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000223s ]
+
+[ 2018-01-25T14:47:25+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000833s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006545s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.008608s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000292s ]
+
+[ 2018-01-25T14:47:26+08:00 ] ::1 /tp32/Api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000909s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005745s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.032327s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) AND ( `password` = '21232f297a57a5a743894a0e4a801fc3' ) LIMIT 1   [ RunTime:0.000258s ]
+
+[ 2018-01-25T14:47:26+08:00 ] ::1 /tp32/Api/user/info?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000762s ]
+ERR: 非法操作:info
+
+[ 2018-01-25T14:47:34+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000737s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007191s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007157s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000210s ]
+
+[ 2018-01-25T14:47:35+08:00 ] ::1 /tp32/Api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000809s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005964s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006722s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) AND ( `password` = '21232f297a57a5a743894a0e4a801fc3' ) LIMIT 1   [ RunTime:0.000223s ]
+
+[ 2018-01-25T14:47:35+08:00 ] ::1 /tp32/Api/user/info?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000991s ]
+ERR: 非法操作:info
+
+[ 2018-01-25T14:47:43+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001041s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.010492s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007081s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000209s ]
+
+[ 2018-01-25T14:47:45+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000673s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006439s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.008874s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000267s ]
+
+[ 2018-01-25T14:47:46+08:00 ] ::1 /tp32/Api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000852s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006864s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.080769s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) AND ( `password` = '21232f297a57a5a743894a0e4a801fc3' ) LIMIT 1   [ RunTime:0.000211s ]
+
+[ 2018-01-25T14:47:46+08:00 ] ::1 /tp32/Api/user/info?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000762s ]
+ERR: 非法操作:info
+
+[ 2018-01-25T14:48:24+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000751s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007605s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006724s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000240s ]
+
+[ 2018-01-25T14:48:26+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.010570s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006449s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000200s ]
+
+[ 2018-01-25T14:48:27+08:00 ] ::1 /tp32/Api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001015s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.014111s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.017217s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) AND ( `password` = '21232f297a57a5a743894a0e4a801fc3' ) LIMIT 1   [ RunTime:0.000481s ]
+
+[ 2018-01-25T14:48:27+08:00 ] ::1 /tp32/Api/user/userinfo?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000958s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000556s ]
+
+[ 2018-01-25T14:51:03+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000874s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007752s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006850s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000263s ]
+
+[ 2018-01-25T14:51:05+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.008747s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.008746s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000272s ]
+
+[ 2018-01-25T14:51:06+08:00 ] ::1 /tp32/Api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000855s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.013377s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.016645s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) AND ( `password` = '21232f297a57a5a743894a0e4a801fc3' ) LIMIT 1   [ RunTime:0.000333s ]
+
+[ 2018-01-25T14:51:07+08:00 ] ::1 /tp32/Api/user/userinfo?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000678s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000484s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000526s ]
+
+[ 2018-01-25T14:58:10+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001239s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007692s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.009318s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000226s ]
+
+[ 2018-01-25T14:58:13+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000896s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005575s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006917s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000208s ]
+
+[ 2018-01-25T14:58:14+08:00 ] ::1 /tp32/Api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000928s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.014377s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.018651s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) AND ( `password` = '21232f297a57a5a743894a0e4a801fc3' ) LIMIT 1   [ RunTime:0.000376s ]
+
+[ 2018-01-25T14:58:14+08:00 ] ::1 /tp32/Api/user/userinfo?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000870s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001008s ]
+
+[ 2018-01-25T15:00:23+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000803s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006537s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006488s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000211s ]
+
+[ 2018-01-25T15:00:25+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000759s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.009200s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000206s ]
+
+[ 2018-01-25T15:00:26+08:00 ] ::1 /tp32/Api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000689s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006265s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007062s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) AND ( `password` = '21232f297a57a5a743894a0e4a801fc3' ) LIMIT 1   [ RunTime:0.000230s ]
+
+[ 2018-01-25T15:00:48+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000695s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.009996s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006599s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000221s ]
+
+[ 2018-01-25T15:00:49+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000795s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.031145s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.024102s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000199s ]
+
+[ 2018-01-25T15:00:50+08:00 ] ::1 /tp32/Api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001067s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.016104s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.018569s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) AND ( `password` = '21232f297a57a5a743894a0e4a801fc3' ) LIMIT 1   [ RunTime:0.000535s ]
+
+[ 2018-01-25T15:01:03+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000950s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007279s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006609s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000205s ]
+
+[ 2018-01-25T15:01:04+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000677s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007670s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007066s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000226s ]
+
+[ 2018-01-25T15:01:05+08:00 ] ::1 /tp32/Api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000861s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.013556s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.018041s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) AND ( `password` = '21232f297a57a5a743894a0e4a801fc3' ) LIMIT 1   [ RunTime:0.000490s ]
+
+[ 2018-01-25T15:01:05+08:00 ] ::1 /tp32/Api/user/userinfo?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000721s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000522s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000569s ]
+
+[ 2018-01-25T15:01:27+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000693s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007759s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006477s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000205s ]
+
+[ 2018-01-25T15:01:27+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000674s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005441s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.004559s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000184s ]
+
+[ 2018-01-25T15:01:29+08:00 ] ::1 /tp32/Api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000689s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.014333s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.025087s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) AND ( `password` = '21232f297a57a5a743894a0e4a801fc3' ) LIMIT 1   [ RunTime:0.000542s ]
+
+[ 2018-01-25T15:01:29+08:00 ] ::1 /tp32/Api/user/userinfo?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000699s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000493s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000539s ]
+
+[ 2018-01-25T15:01:48+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006848s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000227s ]
+
+[ 2018-01-25T15:01:51+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000826s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007750s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006824s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000216s ]
+
+[ 2018-01-25T15:01:52+08:00 ] ::1 /tp32/Api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000896s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.009746s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007171s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) AND ( `password` = '21232f297a57a5a743894a0e4a801fc3' ) LIMIT 1   [ RunTime:0.000247s ]
+
+[ 2018-01-25T15:01:52+08:00 ] ::1 /tp32/Api/user/userinfo?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000778s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000469s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000516s ]
+
+[ 2018-01-25T15:03:33+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000969s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001459s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005635s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007179s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000230s ]
+
+[ 2018-01-25T15:03:34+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000723s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.010204s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006436s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000211s ]
+
+[ 2018-01-25T15:03:35+08:00 ] ::1 /tp32/Api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000774s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007636s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006882s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) AND ( `password` = '21232f297a57a5a743894a0e4a801fc3' ) LIMIT 1   [ RunTime:0.000213s ]
+
+[ 2018-01-25T15:03:35+08:00 ] ::1 /tp32/Api/user/userinfo?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001079s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000493s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000537s ]
+
+[ 2018-01-25T15:07:40+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001636s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007452s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006846s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000212s ]
+
+[ 2018-01-25T15:07:43+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000992s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006898s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006733s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000204s ]
+
+[ 2018-01-25T15:07:44+08:00 ] ::1 /tp32/Api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001205s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005474s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007135s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) AND ( `password` = '21232f297a57a5a743894a0e4a801fc3' ) LIMIT 1   [ RunTime:0.000209s ]
+
+[ 2018-01-25T15:07:44+08:00 ] ::1 /tp32/Api/user/userinfo?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001160s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000676s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000786s ]
+
+[ 2018-01-25T15:08:24+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000689s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007851s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006537s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000231s ]
+
+[ 2018-01-25T15:08:26+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000816s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.012204s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.012820s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000225s ]
+
+[ 2018-01-25T15:08:27+08:00 ] ::1 /tp32/Api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000748s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007057s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006588s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) AND ( `password` = '21232f297a57a5a743894a0e4a801fc3' ) LIMIT 1   [ RunTime:0.000211s ]
+
+[ 2018-01-25T15:08:27+08:00 ] ::1 /tp32/Api/user/userInfo?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001757s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000543s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000598s ]
+
+[ 2018-01-25T15:09:17+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007510s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006917s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000218s ]
+
+[ 2018-01-25T15:09:18+08:00 ] ::1 /tp32/Api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000910s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007912s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006617s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) AND ( `password` = '21232f297a57a5a743894a0e4a801fc3' ) LIMIT 1   [ RunTime:0.000207s ]
+
+[ 2018-01-25T15:09:18+08:00 ] ::1 /tp32/Api/user/userInfo?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000736s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000459s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000509s ]
+
+[ 2018-01-25T15:11:08+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000854s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.010605s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admih' ) LIMIT 1   [ RunTime:0.000216s ]
+
+[ 2018-01-25T15:11:11+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000787s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007390s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006759s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000267s ]
+
+[ 2018-01-25T15:11:14+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000817s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.012913s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006646s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000210s ]
+
+[ 2018-01-25T15:11:15+08:00 ] ::1 /tp32/Api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000683s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.010111s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006626s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) AND ( `password` = '21232f297a57a5a743894a0e4a801fc3' ) LIMIT 1   [ RunTime:0.000222s ]
+
+[ 2018-01-25T15:11:15+08:00 ] ::1 /tp32/Api/user/userInfo?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000829s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000700s ]
+
+[ 2018-01-25T15:25:17+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000983s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.009903s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.009016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000266s ]
+
+[ 2018-01-25T15:25:18+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001392s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006121s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006450s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000209s ]
+
+[ 2018-01-25T15:25:19+08:00 ] ::1 /tp32/Api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000886s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001417s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005555s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006751s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) AND ( `password` = '21232f297a57a5a743894a0e4a801fc3' ) LIMIT 1   [ RunTime:0.000229s ]
+
+[ 2018-01-25T15:25:19+08:00 ] ::1 /tp32/Api/user/userInfo?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000770s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000544s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000611s ]
+
+[ 2018-01-25T15:35:07+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000796s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.008670s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.008350s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000225s ]
+
+[ 2018-01-25T15:35:07+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000836s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005738s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.009443s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000407s ]
+
+[ 2018-01-25T15:35:08+08:00 ] ::1 /tp32/Api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000997s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001815s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007143s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007272s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) AND ( `password` = '21232f297a57a5a743894a0e4a801fc3' ) LIMIT 1   [ RunTime:0.000219s ]
+
+[ 2018-01-25T15:35:09+08:00 ] ::1 /tp32/Api/user/userInfo?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000681s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000485s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000526s ]
+
+[ 2018-01-25T16:29:03+08:00 ] ::1 /tp32/Api/user/checkUserName?username=amdin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000807s ]
+
+[ 2018-01-25T16:29:06+08:00 ] ::1 /tp32/Api/user/checkUserName?username=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000854s ]
+
+[ 2018-01-25T16:29:48+08:00 ] ::1 /tp32/Api/user/checkUserName?username=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000692s ]
+NOTIC: [8] Undefined variable: username C:\phpStudy\PHPTutorial\WWW\tp32\Application\Api\Controller\UserController.class.php 第 37 行.
+
+[ 2018-01-25T16:35:57+08:00 ] ::1 /tp32/Api/user/checkUserName?username=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000980s ]
+NOTIC: [8] Undefined variable: username C:\phpStudy\PHPTutorial\WWW\tp32\Application\Api\Controller\UserController.class.php 第 35 行.
+
+[ 2018-01-25T16:35:57+08:00 ] ::1 /tp32/Api/user/checkUserName?username=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000937s ]
+NOTIC: [8] Undefined variable: username C:\phpStudy\PHPTutorial\WWW\tp32\Application\Api\Controller\UserController.class.php 第 35 行.
+
+[ 2018-01-25T16:35:58+08:00 ] ::1 /tp32/Api/user/login?username=admin&password=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000798s ]
+NOTIC: [8] Undefined variable: username C:\phpStudy\PHPTutorial\WWW\tp32\Application\Api\Controller\UserController.class.php 第 19 行.
+
+[ 2018-01-25T16:35:58+08:00 ] ::1 /tp32/Api/user/userInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000843s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000554s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000605s ]
+
+[ 2018-01-25T16:39:42+08:00 ] ::1 /tp32/Api/user/checkUserName?username=d
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001173s ]
+
+[ 2018-01-25T16:39:48+08:00 ] ::1 /tp32/Api/user/checkUserName?username=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002207s ]
+
+[ 2018-01-25T16:40:25+08:00 ] ::1 /tp32/Api/user/checkUserName?username=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000851s ]
+
+[ 2018-01-25T16:41:13+08:00 ] ::1 /tp32/Api/user/checkUserName?username=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+
+[ 2018-01-25T16:44:44+08:00 ] ::1 /tp32/Api/user/checkUserName?username=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000830s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001321s ]
+
+[ 2018-01-25T16:45:20+08:00 ] ::1 /tp32/Api/user/checkUserName?username=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000677s ]
+
+[ 2018-01-25T16:48:29+08:00 ] ::1 /tp32/Api/user/checkUserName?username=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000847s ]
+
+[ 2018-01-25T16:55:08+08:00 ] ::1 /tp32/Api/user/checkUserName?username=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000854s ]
+
+[ 2018-01-25T16:55:24+08:00 ] ::1 /tp32/Api/user/checkUserName?username=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000715s ]
+
+[ 2018-01-25T16:55:42+08:00 ] ::1 /tp32/Api/user/checkUserName?username=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000673s ]
+
+[ 2018-01-25T16:55:44+08:00 ] ::1 /tp32/Api/user/checkUserName?username=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000839s ]
+
+[ 2018-01-25T17:02:12+08:00 ] ::1 /tp32/Api/user/checkUserName?username=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000848s ]
+
+[ 2018-01-25T17:02:15+08:00 ] ::1 /tp32/Api/user/checkUserName?username=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000957s ]
+
+[ 2018-01-25T17:03:14+08:00 ] ::1 /tp32/Api/user/checkUserName?username=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000721s ]
+
+[ 2018-01-25T17:13:28+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000868s ]
+
+[ 2018-01-25T17:13:34+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001150s ]
+
+[ 2018-01-25T17:13:35+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000676s ]
+
+[ 2018-01-25T17:13:38+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000773s ]
+
+[ 2018-01-25T17:13:45+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000714s ]
+
+[ 2018-01-25T17:14:05+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000872s ]
+
+[ 2018-01-25T17:14:14+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000726s ]
+
+[ 2018-01-25T17:14:51+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000841s ]
+
+[ 2018-01-25T17:14:54+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000840s ]
+
+[ 2018-01-25T17:15:26+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000710s ]
+
+[ 2018-01-25T17:16:06+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000839s ]
+
+[ 2018-01-25T17:16:10+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000507s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000860s ]
+
+[ 2018-01-25T17:16:24+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000752s ]
+
+[ 2018-01-25T17:17:27+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000696s ]
+
+[ 2018-01-25T17:18:18+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000869s ]
+
+[ 2018-01-25T17:20:41+08:00 ] ::1 /tp32/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000922s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000613s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000674s ]
+
+[ 2018-01-25T17:20:47+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000840s ]
+
+[ 2018-01-25T17:20:59+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000876s ]
+
+[ 2018-01-25T17:21:02+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000688s ]
+
+[ 2018-01-25T17:23:41+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001071s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.009033s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.015073s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000384s ]
+
+[ 2018-01-25T17:24:23+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000772s ]
+
+[ 2018-01-25T17:25:47+08:00 ] ::1 /tp32/Api/user/checkUserName?username=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000832s ]
+
+[ 2018-01-25T17:26:13+08:00 ] ::1 /tp32/Api/user/checkUserName?username=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000778s ]
+
+[ 2018-01-25T17:27:06+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001049s ]
+
+[ 2018-01-25T17:27:21+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000799s ]
+
+[ 2018-01-25T17:27:37+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000792s ]
+
+[ 2018-01-25T17:30:19+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001094s ]
+
+[ 2018-01-25T17:30:21+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000692s ]
+
+[ 2018-01-25T17:30:22+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000712s ]
+
+[ 2018-01-25T17:30:26+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001056s ]
+
+[ 2018-01-25T17:30:27+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000909s ]
+
+[ 2018-01-25T17:30:33+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000747s ]
+
+[ 2018-01-25T17:31:50+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001007s ]
+
+[ 2018-01-25T17:32:58+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002296s ]
+
+[ 2018-01-25T17:33:01+08:00 ] ::1 /tp32/index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000812s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000479s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000521s ]
+
+[ 2018-01-25T17:34:19+08:00 ] ::1 /tp32/Api/user/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000941s ]
+
