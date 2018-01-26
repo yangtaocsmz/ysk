@@ -14,8 +14,8 @@ export function login(username, password) {
 export function checkUserName(username) {
   return request({
     url: '/user/checkUserName',
-    method: 'post',
-    data: {
+    method: 'get',
+    params: {
       username
     }
   })

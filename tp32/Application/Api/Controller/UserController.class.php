@@ -4,8 +4,11 @@ namespace Api\Controller;
 
 use Think\Controller;
 
-header('Access-Control-Allow-Credentials:true');
+// header('Access-Control-Allow-Credentials:true');
+// header('Access-Control-Allow-Origin:*');
 header('Access-Control-Allow-Origin:*');
+header('Access-Control-Allow-Method:POST,GET,OPTIONS');
+header('Access-Control-Allow-Headers: Content-Type');
 
 class UserController extends Controller
 {
@@ -33,24 +36,11 @@ class UserController extends Controller
      */
     public function checkUserName()
     {
-
-        $data = file_get_contents('php://input');
-        echo empty($data);
-
-        if ($data) {
-            $data = json_decode($data);
-            $username = $data->username;
+        $username = I('get.username');
+        if (isset($username)) {
             $res = D('User')->checkUserName($username);
-            $this->ajaxReturn($res);
-        } else {
-            $this->ajaxReturn(false);
         }
-        // if ($username == null) {
-        //     $this->ajaxReturn(false);
-        // } else {
-        //     $res = D('User')->checkUserName($username);
-        //     $this->ajaxReturn($res);
-        // }
+
     }
 
     public function userInfo()

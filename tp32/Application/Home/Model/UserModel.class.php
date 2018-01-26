@@ -6,9 +6,13 @@ use Think\Model;
 
 class UserModel extends Model
 {
-    public function checkPsd($username, $password)
+    public function checkUserName($username)
     {
-        $res = $username + $password;
-        return $res;
+        $res = M('admin')->where('username=' . $username)->find();
+        if ($res) {
+            return 1;
+        } else {
+            return 0;
+        }
     }
 }
