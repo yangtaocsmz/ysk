@@ -9,6 +9,23 @@ class UserModel extends Model
 
     protected $tableName = '';
 
+    public function checkUserName($username)
+    {
+        $map['username']->$username;
+        $count = M('admin')->where($map)->find();
+        if ($count) {
+
+            $res['status'] = 0;
+            $res['message'] = '用户名校验成功';
+
+        } else {
+            $res['status'] = -1;
+            $res['message'] = '用户名校验失败';
+        }
+        return $res;
+
+    }
+
     /**
      * 用户登录
      * @param  [string] $username [用户名]
@@ -18,9 +35,9 @@ class UserModel extends Model
     public function login($username, $password)
     {
         $map['username'] = $username;
-        $map['password'] = $password;
+        $map['password'] = md5($password);
 
-        $count = M('admin')->where($map)->count();
+        $count = M('admin')->where($map)->find();
         if ($count) {
             $res['status'] = 0;
             $res['token'] = $username;
@@ -32,27 +49,26 @@ class UserModel extends Model
         return $res;
     }
 
-    /**
-     * [查看是否存在用户名]
-     * @param  [string] $username [用户名]
-     * @return [json]           [返回json结果]
-     */
-    public function checkUserName($username)
+    public function userInfo($token)
     {
 
-        $map['username'] = $username;
-        $count = M('admin')->where($map)->count();
+        $token = 'admin';
+        $map['username'] = $token;
+
+        $count = M('admin')->where($map)->find();
         if ($count) {
+
             $res['status'] = 0;
-            $res['message'] = '用户名校验成功';
+            $data['roles'] = $count['admin_type'];
+            $data['name'] = $count['realname'];
+            $data['avatar'] = $count['avatar'];
+            $res['data'] = $data;
+            return $res;
 
         } else {
             $res['status'] = -1;
-            $res['message'] = '不存在的用户名';
-
+            $message['message'] = "用户信息调用失败";
         }
         return $res;
-
     }
-
 }

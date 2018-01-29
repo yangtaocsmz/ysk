@@ -1,5 +1,6 @@
 <template>
   <div class="menu-wrapper">
+    <h4 style="color:white " align="center">怡适康健康管理系统</h4>
     <template v-for="item in routes" v-if="!item.hidden&&item.children">
 
       <router-link v-if="item.children.length===1 && !item.children[0].children" :to="item.path+'/'+item.children[0].path" :key="item.children[0].name">

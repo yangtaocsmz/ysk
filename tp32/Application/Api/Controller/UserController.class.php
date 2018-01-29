@@ -8,7 +8,7 @@ use Think\Controller;
 // header('Access-Control-Allow-Origin:*');
 header('Access-Control-Allow-Origin:*');
 header('Access-Control-Allow-Method:POST,GET,OPTIONS');
-header('Access-Control-Allow-Headers: Content-Type');
+header('Access-Control-Allow-Headers: Content-Type,X-Token');
 
 class UserController extends Controller
 {
@@ -18,17 +18,15 @@ class UserController extends Controller
      */
     public function login()
     {
-        $this->ajaxReturn(false);
-        exit;
-        $data = file_get_contents('php://input', 'r');
-        if ($username == null || $password == null) {
-            $this->ajaxReturn(false);
-        } else {
-            $password = md5($password);
+        $username = I('get.username');
+        $password = I('get.password');
+        if (!$username == null || !$password == null) {
+
             $res = D('User')->login($username, $password);
             $this->ajaxReturn($res);
+        } else {
+            $this->ajaxReturn(false);
         }
-
     }
     /**
      * [校验用户名]
@@ -37,14 +35,28 @@ class UserController extends Controller
     public function checkUserName()
     {
         $username = I('get.username');
-        if (isset($username)) {
-            $res = D('User')->checkUserName($username);
-        }
+        // $username = "admin";
+        $res = D('User')->checkUserName($username);
+        $this->ajaxReturn($res);
 
     }
 
     public function userInfo()
     {
-        echo 1;
+
+        $token = I('get.token');
+        $token = 'admin';
+        if (!$token == null) {
+            $res = D('User')->userInfo($token);
+
+        } else {
+            $res = false;
+        }
+        $this->ajaxReturn($res);
+    }
+
+    public function logOut()
+    {
+
     }
 }
