@@ -3823,3 +3823,383 @@ SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006907s ]
 SQL: SELECT * FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000232s ]
 NOTIC: [8] Undefined index: avatar C:\phpStudy\PHPTutorial\WWW\ysk\tp32\Application\Api\Model\UserModel.class.php 第 64 行.
 
+[ 2018-01-29T15:55:01+08:00 ] ::1 /ysk/tp32/Api/user/checkUserName?username=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000975s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.011410s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+NOTIC: [8] Undefined variable: map C:\phpStudy\PHPTutorial\WWW\ysk\tp32\Application\Api\Model\UserModel.class.php 第 14 行.
+NOTIC: [8] Trying to get property of non-object C:\phpStudy\PHPTutorial\WWW\ysk\tp32\Application\Api\Model\UserModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.009803s ]
+NOTIC: [8] Undefined variable: map C:\phpStudy\PHPTutorial\WWW\ysk\tp32\Application\Api\Model\UserModel.class.php 第 15 行.
+SQL: SELECT * FROM `admin` LIMIT 1   [ RunTime:0.000231s ]
+
+[ 2018-01-29T15:55:05+08:00 ] ::1 /ysk/tp32/Api/user/checkUserName?username=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000933s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005506s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+NOTIC: [8] Undefined variable: map C:\phpStudy\PHPTutorial\WWW\ysk\tp32\Application\Api\Model\UserModel.class.php 第 14 行.
+NOTIC: [8] Trying to get property of non-object C:\phpStudy\PHPTutorial\WWW\ysk\tp32\Application\Api\Model\UserModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007064s ]
+NOTIC: [8] Undefined variable: map C:\phpStudy\PHPTutorial\WWW\ysk\tp32\Application\Api\Model\UserModel.class.php 第 15 行.
+SQL: SELECT * FROM `admin` LIMIT 1   [ RunTime:0.000287s ]
+
+[ 2018-01-29T15:55:06+08:00 ] ::1 /ysk/tp32/Api/user/login?username=admin&password=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000864s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.008024s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006849s ]
+SQL: SELECT * FROM `admin` WHERE ( `username` = 'admin' ) AND ( `password` = '21232f297a57a5a743894a0e4a801fc3' ) LIMIT 1   [ RunTime:0.000285s ]
+
+[ 2018-01-29T15:55:07+08:00 ] ::1 /ysk/tp32/Api/user/userInfo?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000950s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.012687s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.009636s ]
+SQL: SELECT * FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000257s ]
+NOTIC: [8] Undefined index: avatar C:\phpStudy\PHPTutorial\WWW\ysk\tp32\Application\Api\Model\UserModel.class.php 第 64 行.
+
+[ 2018-01-29T15:55:08+08:00 ] ::1 /ysk/tp32/Api/user/userInfo?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000710s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.014884s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.018142s ]
+SQL: SELECT * FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000425s ]
+NOTIC: [8] Undefined index: avatar C:\phpStudy\PHPTutorial\WWW\ysk\tp32\Application\Api\Model\UserModel.class.php 第 64 行.
+
+[ 2018-01-29T15:57:31+08:00 ] ::1 /ysk/tp32/Api/user/userInfo?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001064s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.017726s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.021143s ]
+SQL: SELECT * FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000363s ]
+NOTIC: [8] Undefined index: avatar C:\phpStudy\PHPTutorial\WWW\ysk\tp32\Application\Api\Model\UserModel.class.php 第 64 行.
+
+[ 2018-01-29T15:57:32+08:00 ] ::1 /ysk/tp32/Api/user/userInfo?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000737s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.010986s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007502s ]
+SQL: SELECT * FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000233s ]
+NOTIC: [8] Undefined index: avatar C:\phpStudy\PHPTutorial\WWW\ysk\tp32\Application\Api\Model\UserModel.class.php 第 64 行.
+
+[ 2018-01-29T16:24:13+08:00 ] ::1 /ysk/tp32/Api/user/userInfo?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000865s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006513s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.008776s ]
+SQL: SELECT * FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000186s ]
+NOTIC: [8] Undefined index: avatar C:\phpStudy\PHPTutorial\WWW\ysk\tp32\Application\Api\Model\UserModel.class.php 第 64 行.
+
+[ 2018-01-29T16:24:14+08:00 ] ::1 /ysk/tp32/Api/user/userInfo?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000670s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005843s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.009585s ]
+SQL: SELECT * FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000287s ]
+NOTIC: [8] Undefined index: avatar C:\phpStudy\PHPTutorial\WWW\ysk\tp32\Application\Api\Model\UserModel.class.php 第 64 行.
+
+[ 2018-01-29T16:28:44+08:00 ] ::1 /ysk/tp32/Api/user/userInfo?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000825s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006223s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007145s ]
+SQL: SELECT * FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000210s ]
+NOTIC: [8] Undefined index: avatar C:\phpStudy\PHPTutorial\WWW\ysk\tp32\Application\Api\Model\UserModel.class.php 第 64 行.
+
+[ 2018-01-29T16:28:45+08:00 ] ::1 /ysk/tp32/Api/user/userInfo?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000810s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.009282s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007458s ]
+SQL: SELECT * FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000239s ]
+NOTIC: [8] Undefined index: avatar C:\phpStudy\PHPTutorial\WWW\ysk\tp32\Application\Api\Model\UserModel.class.php 第 64 行.
+
+[ 2018-01-29T16:31:37+08:00 ] ::1 /ysk/tp32/Api/user/userInfo?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003094s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007576s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007277s ]
+SQL: SELECT * FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000242s ]
+NOTIC: [8] Undefined index: avatar C:\phpStudy\PHPTutorial\WWW\ysk\tp32\Application\Api\Model\UserModel.class.php 第 64 行.
+
+[ 2018-01-29T16:31:38+08:00 ] ::1 /ysk/tp32/Api/user/userInfo?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000715s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005370s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006433s ]
+SQL: SELECT * FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000290s ]
+NOTIC: [8] Undefined index: avatar C:\phpStudy\PHPTutorial\WWW\ysk\tp32\Application\Api\Model\UserModel.class.php 第 64 行.
+
+[ 2018-01-29T16:31:55+08:00 ] ::1 /ysk/tp32/Api/user/userInfo?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000669s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007071s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006755s ]
+SQL: SELECT * FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000231s ]
+NOTIC: [8] Undefined index: avatar C:\phpStudy\PHPTutorial\WWW\ysk\tp32\Application\Api\Model\UserModel.class.php 第 64 行.
+
+[ 2018-01-29T16:31:56+08:00 ] ::1 /ysk/tp32/Api/user/userInfo?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000879s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006075s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007204s ]
+SQL: SELECT * FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000254s ]
+NOTIC: [8] Undefined index: avatar C:\phpStudy\PHPTutorial\WWW\ysk\tp32\Application\Api\Model\UserModel.class.php 第 64 行.
+
+[ 2018-01-29T16:31:59+08:00 ] ::1 /ysk/tp32/Api/table/list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001209s ]
+ERR: 无法加载控制器:Table
+
+[ 2018-01-29T16:32:15+08:00 ] ::1 /ysk/tp32/Api/user/logout
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000707s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000580s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000645s ]
+
+[ 2018-01-29T16:32:15+08:00 ] ::1 /ysk/tp32/Api/user/logout
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000696s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000499s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000541s ]
+
+[ 2018-01-29T16:32:18+08:00 ] ::1 /ysk/tp32/Api/user/checkUserName?username=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000891s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007607s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+NOTIC: [8] Undefined variable: map C:\phpStudy\PHPTutorial\WWW\ysk\tp32\Application\Api\Model\UserModel.class.php 第 14 行.
+NOTIC: [8] Trying to get property of non-object C:\phpStudy\PHPTutorial\WWW\ysk\tp32\Application\Api\Model\UserModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006735s ]
+NOTIC: [8] Undefined variable: map C:\phpStudy\PHPTutorial\WWW\ysk\tp32\Application\Api\Model\UserModel.class.php 第 15 行.
+SQL: SELECT * FROM `admin` LIMIT 1   [ RunTime:0.000211s ]
+
+[ 2018-01-29T16:32:19+08:00 ] ::1 /ysk/tp32/Api/user/checkUserName?username=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000666s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.013566s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+NOTIC: [8] Undefined variable: map C:\phpStudy\PHPTutorial\WWW\ysk\tp32\Application\Api\Model\UserModel.class.php 第 14 行.
+NOTIC: [8] Trying to get property of non-object C:\phpStudy\PHPTutorial\WWW\ysk\tp32\Application\Api\Model\UserModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.013176s ]
+NOTIC: [8] Undefined variable: map C:\phpStudy\PHPTutorial\WWW\ysk\tp32\Application\Api\Model\UserModel.class.php 第 15 行.
+SQL: SELECT * FROM `admin` LIMIT 1   [ RunTime:0.000209s ]
+
+[ 2018-01-29T16:32:20+08:00 ] ::1 /ysk/tp32/Api/user/login?username=admin&password=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000707s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005702s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007179s ]
+SQL: SELECT * FROM `admin` WHERE ( `username` = 'admin' ) AND ( `password` = '21232f297a57a5a743894a0e4a801fc3' ) LIMIT 1   [ RunTime:0.000294s ]
+
+[ 2018-01-29T16:32:22+08:00 ] ::1 /ysk/tp32/Api/user/userInfo?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000669s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007248s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.008688s ]
+SQL: SELECT * FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000283s ]
+NOTIC: [8] Undefined index: avatar C:\phpStudy\PHPTutorial\WWW\ysk\tp32\Application\Api\Model\UserModel.class.php 第 64 行.
+
+[ 2018-01-29T16:32:23+08:00 ] ::1 /ysk/tp32/Api/user/userInfo?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001127s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.012574s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.012099s ]
+SQL: SELECT * FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000234s ]
+NOTIC: [8] Undefined index: avatar C:\phpStudy\PHPTutorial\WWW\ysk\tp32\Application\Api\Model\UserModel.class.php 第 64 行.
+
+[ 2018-01-29T16:33:23+08:00 ] ::1 /ysk/tp32/Api/user/userInfo?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003348s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.015363s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.019027s ]
+SQL: SELECT * FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000444s ]
+NOTIC: [8] Undefined index: avatar C:\phpStudy\PHPTutorial\WWW\ysk\tp32\Application\Api\Model\UserModel.class.php 第 64 行.
+
+[ 2018-01-29T16:33:24+08:00 ] ::1 /ysk/tp32/Api/user/userInfo?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000669s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007114s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007114s ]
+SQL: SELECT * FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000275s ]
+NOTIC: [8] Undefined index: avatar C:\phpStudy\PHPTutorial\WWW\ysk\tp32\Application\Api\Model\UserModel.class.php 第 64 行.
+
+[ 2018-01-29T16:35:43+08:00 ] ::1 /ysk/tp32/Api/user/userInfo?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000973s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006562s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006832s ]
+SQL: SELECT * FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000249s ]
+NOTIC: [8] Undefined index: avatar C:\phpStudy\PHPTutorial\WWW\ysk\tp32\Application\Api\Model\UserModel.class.php 第 64 行.
+
+[ 2018-01-29T16:35:44+08:00 ] ::1 /ysk/tp32/Api/user/userInfo?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000673s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007575s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006953s ]
+SQL: SELECT * FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000251s ]
+NOTIC: [8] Undefined index: avatar C:\phpStudy\PHPTutorial\WWW\ysk\tp32\Application\Api\Model\UserModel.class.php 第 64 行.
+
+[ 2018-01-29T16:41:15+08:00 ] ::1 /ysk/tp32/Api/user/userInfo?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003209s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.010023s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.011533s ]
+SQL: SELECT * FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000241s ]
+NOTIC: [8] Undefined index: avatar C:\phpStudy\PHPTutorial\WWW\ysk\tp32\Application\Api\Model\UserModel.class.php 第 64 行.
+
+[ 2018-01-29T16:41:16+08:00 ] ::1 /ysk/tp32/Api/user/userInfo?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000910s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.014486s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.009821s ]
+SQL: SELECT * FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000246s ]
+NOTIC: [8] Undefined index: avatar C:\phpStudy\PHPTutorial\WWW\ysk\tp32\Application\Api\Model\UserModel.class.php 第 64 行.
+
+[ 2018-01-29T16:41:24+08:00 ] ::1 /ysk/tp32/Api/user/userInfo?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001205s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.016398s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.016916s ]
+SQL: SELECT * FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000355s ]
+NOTIC: [8] Undefined index: avatar C:\phpStudy\PHPTutorial\WWW\ysk\tp32\Application\Api\Model\UserModel.class.php 第 64 行.
+
+[ 2018-01-29T16:41:25+08:00 ] ::1 /ysk/tp32/Api/user/userInfo?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000821s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.015011s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.019317s ]
+SQL: SELECT * FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000597s ]
+NOTIC: [8] Undefined index: avatar C:\phpStudy\PHPTutorial\WWW\ysk\tp32\Application\Api\Model\UserModel.class.php 第 64 行.
+
+[ 2018-01-29T16:44:31+08:00 ] ::1 /ysk/tp32/Api/user/userInfo?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001024s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.015069s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.008923s ]
+SQL: SELECT * FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000331s ]
+NOTIC: [8] Undefined index: avatar C:\phpStudy\PHPTutorial\WWW\ysk\tp32\Application\Api\Model\UserModel.class.php 第 64 行.
+
+[ 2018-01-29T16:44:32+08:00 ] ::1 /ysk/tp32/Api/user/userInfo?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000919s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006728s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006980s ]
+SQL: SELECT * FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000295s ]
+NOTIC: [8] Undefined index: avatar C:\phpStudy\PHPTutorial\WWW\ysk\tp32\Application\Api\Model\UserModel.class.php 第 64 行.
+
+[ 2018-01-29T16:44:56+08:00 ] ::1 /ysk/tp32/Api/user/userInfo?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003123s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.014537s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.013059s ]
+SQL: SELECT * FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000314s ]
+NOTIC: [8] Undefined index: avatar C:\phpStudy\PHPTutorial\WWW\ysk\tp32\Application\Api\Model\UserModel.class.php 第 64 行.
+
+[ 2018-01-29T16:44:57+08:00 ] ::1 /ysk/tp32/Api/user/userInfo?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000839s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007179s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.008171s ]
+SQL: SELECT * FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000382s ]
+NOTIC: [8] Undefined index: avatar C:\phpStudy\PHPTutorial\WWW\ysk\tp32\Application\Api\Model\UserModel.class.php 第 64 行.
+
