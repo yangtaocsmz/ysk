@@ -41,11 +41,10 @@ class UserController extends Controller
 
     }
 
-    public function userInfo()
+    public function getUserInfo()
     {
 
         $token = I('get.token');
-        $token = 'admin';
         if (!$token == null) {
             $res = D('User')->userInfo($token);
 
