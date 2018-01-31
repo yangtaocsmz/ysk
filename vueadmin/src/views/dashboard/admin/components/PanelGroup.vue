@@ -6,8 +6,8 @@
           <svg-icon icon-class="peoples" class-name="card-panel-icon" />
         </div>
         <div class="card-panel-description">
-          <div class="card-panel-text">New Visits</div>
-          <count-to class="card-panel-num" :startVal="0" :endVal="102400" :duration="2600"></count-to>
+          <div class="card-panel-text">总会员</div>
+          <count-to class="card-panel-num" :startVal="0" :endVal='list.total' :duration="2600"></count-to>
         </div>
       </div>
     </el-col>
@@ -49,15 +49,37 @@
 
 <script>
 import CountTo from 'vue-count-to'
-
+import { cardList } from '@/api/member'
 export default {
   components: {
     CountTo
   },
+  data() {
+    return {
+      list: 0
+    }
+  },
+  created() {
+    this.cardList()
+  },
   methods: {
     handleSetLineChartData(type) {
       this.$emit('handleSetLineChartData', type)
+    },
+    cardList() {
+      const date = Date.now()
+      // console.log(date)
+      // const month = date.getUTCMonth() + 1
+      // const day = date.getUTCDate()
+      // const year = date.getUTCFullYear()
+      // const nowdate = year + '-' + month + '-' + day
+      const where = "RegisterTime like '%1%'"
+      cardList(0, 20,where).then(response => {
+        this.list = response.data
+        console.log(this.list)
+      })
     }
+
   }
 }
 </script>
