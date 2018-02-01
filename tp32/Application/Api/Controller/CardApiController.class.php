@@ -19,10 +19,17 @@ class CardApiController extends Controller
 
     public function cardList()
     {
+
+        // $where = "RegisterTime > '2018-01-31' and RegisterTime < '2018-02-01'";
+        // $pageIndex = 0;
+        // $pageSize = 20;
         $pageIndex = I('get.pageIndex');
         $pageSize = I('get.pageSize');
         $where = I('get.where');
         $orderBy = I('get.orderBy');
+
+        $where = htmlspecialchars_decode($where);
+
         $data = array(
             "userAccount" => self::USERACCOUNT,
             "pageIndex" => $pageIndex,
