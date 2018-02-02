@@ -29,7 +29,7 @@
         </div>
         <div class="card-panel-description">
           <div class="card-panel-text">总用户数</div>
-          <count-to class="card-panel-num" :startVal="0" :endVal="allList.total" :duration="3200"></count-to>人
+          <count-to class="card-panel-num" :startVal="0" :endVal="123156" :duration="3200"></count-to>人
         </div>
       </div>
     </el-col>
@@ -40,7 +40,7 @@
         </div>
         <div class="card-panel-description">
           <div class="card-panel-text">今日新增用户数</div>
-          <count-to class="card-panel-num" :startVal="0" :endVal="list.total" :duration="3600"></count-to>人
+          <count-to class="card-panel-num" :startVal="0" :endVal="newUser" :duration="3600"></count-to>人
         </div>
       </div>
     </el-col>
@@ -56,13 +56,12 @@ export default {
   },
   data() {
     return {
-      list: 0,
-      allList: 0
+      newUser: 0,
+      allUser: 0
     }
   },
   created() {
     this.cardList()
-    this.cardAllList()
   },
   methods: {
     handleSetLineChartData(type) {
@@ -74,7 +73,6 @@ export default {
       const month = _date.getUTCMonth() + 1
       const day = _date.getUTCDate()
       // const date = year + '-' + month + '-' + day
-
       const _nextDate = new Date(_date.getTime() + 24 * 60 * 60 * 1000)
       const preYear = _nextDate.getUTCFullYear()
       const preMonth = _nextDate.getUTCMonth() + 1
@@ -84,15 +82,16 @@ export default {
       const nextDate = preYear + '-' + preMonth + '-' + preDay
       const where = 'RegisterTime < ' + "'" + nextDate + "'" + ' and RegisterTime > ' + "'" + date + "'"
       // const where = "RegisterTime > '2018-01-31' and RegisterTime < '2018-02-02'"
-      cardList(0, 20, where).then(response => {
-        this.list = response.data
+      return new Promise((resolve, reject) => {
+        cardList(0, 1, where).then(response => {
+          this.newUser = response.data.total
+          reject(this.newUser)
+        }).then(response => {
+        }).catch(error => {
+          reject(error)
+        })
       })
-    },
-
-    cardAllList() {
-      cardList(0, 5).then(response => {
-        this.allList = response.data
-      })
+      
     }
   }
 }

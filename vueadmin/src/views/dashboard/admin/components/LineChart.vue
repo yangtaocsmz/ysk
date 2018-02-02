@@ -56,7 +56,6 @@ export default {
     if (this.autoResize) {
       window.removeEventListener('resize', this.__resizeHanlder)
     }
-
     const sidebarElm = document.getElementsByClassName('sidebar-container')[0]
     sidebarElm.removeEventListener('transitionend', this.__resizeHanlder)
 
@@ -72,10 +71,10 @@ export default {
     }
   },
   methods: {
-    setOptions({ expectedData, actualData } = {}) {
+    setOptions({ expectedData, actualData, xData } = {}) {
       this.chart.setOption({
         xAxis: {
-          data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
+          data: xData,
           boundaryGap: false,
           axisTick: {
             show: false
@@ -101,10 +100,10 @@ export default {
           }
         },
         legend: {
-          data: ['expected', 'actual']
+          data: ['体验会员', '非体验会员']
         },
         series: [{
-          name: 'expected', itemStyle: {
+          name: '体验会员', itemStyle: {
             normal: {
               color: '#FF005A',
               lineStyle: {
@@ -120,7 +119,7 @@ export default {
           animationEasing: 'cubicInOut'
         },
         {
-          name: 'actual',
+          name: '非体验会员',
           smooth: true,
           type: 'line',
           itemStyle: {

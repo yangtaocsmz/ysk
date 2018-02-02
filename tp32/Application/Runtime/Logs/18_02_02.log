@@ -1,0 +1,1441 @@
+[ 2018-02-02T08:45:29+08:00 ] ::1 /ysk/tp32/Api/user/login?username=admin&password=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.013777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022569s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004885s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.075114s ]
+SQL: SELECT * FROM `admin` WHERE ( `username` = 'admin' ) AND ( `password` = '21232f297a57a5a743894a0e4a801fc3' ) LIMIT 1   [ RunTime:0.000672s ]
+
+[ 2018-02-02T08:45:30+08:00 ] ::1 /ysk/tp32/Api/user/login?username=admin&password=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000853s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.014220s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.013855s ]
+SQL: SELECT * FROM `admin` WHERE ( `username` = 'admin' ) AND ( `password` = '21232f297a57a5a743894a0e4a801fc3' ) LIMIT 1   [ RunTime:0.000397s ]
+
+[ 2018-02-02T08:45:31+08:00 ] ::1 /ysk/tp32/Api/user/getUserInfo?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000936s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006199s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007148s ]
+SQL: SELECT * FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000224s ]
+
+[ 2018-02-02T08:45:32+08:00 ] ::1 /ysk/tp32/Api/user/getUserInfo?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000711s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.008394s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.011547s ]
+SQL: SELECT * FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000386s ]
+
+[ 2018-02-02T08:45:33+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000980s ]
+
+[ 2018-02-02T08:45:33+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=20&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000795s ]
+
+[ 2018-02-02T08:45:34+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=20&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000872s ]
+
+[ 2018-02-02T08:45:34+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001013s ]
+
+[ 2018-02-02T09:21:34+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=20&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000883s ]
+
+[ 2018-02-02T09:21:34+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001627s ]
+
+[ 2018-02-02T09:21:34+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=20&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000735s ]
+
+[ 2018-02-02T09:21:34+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000745s ]
+
+[ 2018-02-02T09:21:42+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=20&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000733s ]
+
+[ 2018-02-02T09:21:42+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000788s ]
+
+[ 2018-02-02T09:21:43+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=20&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000724s ]
+
+[ 2018-02-02T09:21:43+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000714s ]
+
+[ 2018-02-02T10:04:46+08:00 ] ::1 /ysk/tp32/Api/user/login?username=admin&password=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000898s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005663s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007591s ]
+SQL: SELECT * FROM `admin` WHERE ( `username` = 'admin' ) AND ( `password` = '21232f297a57a5a743894a0e4a801fc3' ) LIMIT 1   [ RunTime:0.000295s ]
+
+[ 2018-02-02T10:04:55+08:00 ] ::1 /ysk/tp32/Api/user/getUserInfo?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001140s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001513s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005589s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.017558s ]
+SQL: SELECT * FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000208s ]
+
+[ 2018-02-02T10:04:56+08:00 ] ::1 /ysk/tp32/Api/user/getUserInfo?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000675s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.048141s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.029815s ]
+SQL: SELECT * FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000251s ]
+
+[ 2018-02-02T10:04:57+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000888s ]
+
+[ 2018-02-02T10:04:57+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=20&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000710s ]
+
+[ 2018-02-02T10:04:57+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000890s ]
+
+[ 2018-02-02T10:04:57+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=20&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001198s ]
+
+[ 2018-02-02T10:24:40+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=20&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001262s ]
+
+[ 2018-02-02T10:24:40+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001169s ]
+
+[ 2018-02-02T10:24:40+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000770s ]
+
+[ 2018-02-02T10:24:40+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=20&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000745s ]
+
+[ 2018-02-02T10:59:14+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000890s ]
+
+[ 2018-02-02T10:59:14+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=20&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000992s ]
+
+[ 2018-02-02T10:59:14+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000820s ]
+
+[ 2018-02-02T10:59:14+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=20&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000724s ]
+
+[ 2018-02-02T10:59:22+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000737s ]
+
+[ 2018-02-02T10:59:22+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=20&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000760s ]
+
+[ 2018-02-02T10:59:22+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000777s ]
+
+[ 2018-02-02T10:59:22+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=20&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000737s ]
+
+[ 2018-02-02T11:06:38+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002735s ]
+
+[ 2018-02-02T11:06:38+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=20&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002799s ]
+
+[ 2018-02-02T11:06:38+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000913s ]
+
+[ 2018-02-02T11:06:38+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=20&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001245s ]
+
+[ 2018-02-02T11:07:24+08:00 ] ::1 /ysk/tp32/Api/user/getUserInfo?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000735s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.010015s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.014170s ]
+SQL: SELECT * FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000265s ]
+
+[ 2018-02-02T11:07:25+08:00 ] ::1 /ysk/tp32/Api/user/getUserInfo?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001110s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.012977s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.010678s ]
+SQL: SELECT * FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000235s ]
+
+[ 2018-02-02T11:07:26+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000747s ]
+
+[ 2018-02-02T11:07:26+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=20&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000716s ]
+
+[ 2018-02-02T11:07:26+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000716s ]
+
+[ 2018-02-02T11:07:26+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=20&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000760s ]
+
+[ 2018-02-02T11:09:00+08:00 ] ::1 /ysk/tp32/Api/user/getUserInfo?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001595s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.012077s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.014672s ]
+SQL: SELECT * FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000506s ]
+
+[ 2018-02-02T11:09:01+08:00 ] ::1 /ysk/tp32/Api/user/getUserInfo?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000798s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005524s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006236s ]
+SQL: SELECT * FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000208s ]
+
+[ 2018-02-02T11:09:02+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000936s ]
+
+[ 2018-02-02T11:09:02+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=20&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000713s ]
+
+[ 2018-02-02T11:09:02+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000749s ]
+
+[ 2018-02-02T11:09:02+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=20&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000715s ]
+
+[ 2018-02-02T11:09:28+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=20&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000708s ]
+
+[ 2018-02-02T11:09:28+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=20&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000751s ]
+
+[ 2018-02-02T11:09:28+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000742s ]
+
+[ 2018-02-02T11:09:29+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000759s ]
+
+[ 2018-02-02T11:10:20+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=20&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000756s ]
+
+[ 2018-02-02T11:10:20+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000728s ]
+
+[ 2018-02-02T11:10:20+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=20&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000740s ]
+
+[ 2018-02-02T11:10:20+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000728s ]
+
+[ 2018-02-02T11:10:47+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000737s ]
+
+[ 2018-02-02T11:10:47+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=20&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000762s ]
+
+[ 2018-02-02T11:10:47+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000730s ]
+
+[ 2018-02-02T11:10:47+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=20&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000749s ]
+
+[ 2018-02-02T11:10:51+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001041s ]
+
+[ 2018-02-02T11:10:51+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=20&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001064s ]
+
+[ 2018-02-02T11:11:00+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001235s ]
+
+[ 2018-02-02T11:11:00+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=20&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003007s ]
+
+[ 2018-02-02T11:11:00+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000799s ]
+
+[ 2018-02-02T11:11:00+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=20&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000692s ]
+
+[ 2018-02-02T11:12:17+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000723s ]
+
+[ 2018-02-02T11:12:17+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001134s ]
+
+[ 2018-02-02T11:12:17+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=20&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001029s ]
+
+[ 2018-02-02T11:12:17+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=20&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000699s ]
+
+[ 2018-02-02T11:51:22+08:00 ] ::1 /ysk/tp32/Api/user/getUserInfo?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001829s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.013741s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.016184s ]
+SQL: SELECT * FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000491s ]
+
+[ 2018-02-02T11:51:23+08:00 ] ::1 /ysk/tp32/Api/user/getUserInfo?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.010095s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006538s ]
+SQL: SELECT * FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000232s ]
+
+[ 2018-02-02T11:51:24+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000997s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001587s ]
+
+[ 2018-02-02T11:51:24+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=20&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000676s ]
+
+[ 2018-02-02T11:51:24+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000792s ]
+
+[ 2018-02-02T11:51:24+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=20&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000742s ]
+
+[ 2018-02-02T12:48:38+08:00 ] ::1 /ysk/tp32/Api/user/getUserInfo?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000877s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.010220s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.017143s ]
+SQL: SELECT * FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000517s ]
+
+[ 2018-02-02T12:48:39+08:00 ] ::1 /ysk/tp32/Api/user/getUserInfo?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000830s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005677s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006844s ]
+SQL: SELECT * FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000245s ]
+
+[ 2018-02-02T12:48:40+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001293s ]
+
+[ 2018-02-02T12:48:40+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=20&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000721s ]
+
+[ 2018-02-02T12:48:40+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000696s ]
+
+[ 2018-02-02T12:48:41+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=20&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000918s ]
+
+[ 2018-02-02T13:16:48+08:00 ] ::1 /ysk/tp32/Api/user/getUserInfo?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000886s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.013513s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.014807s ]
+SQL: SELECT * FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000252s ]
+
+[ 2018-02-02T13:16:49+08:00 ] ::1 /ysk/tp32/Api/user/getUserInfo?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000726s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006269s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006555s ]
+SQL: SELECT * FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000231s ]
+
+[ 2018-02-02T13:16:50+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000866s ]
+
+[ 2018-02-02T13:16:50+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=20&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000775s ]
+
+[ 2018-02-02T13:16:50+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000784s ]
+
+[ 2018-02-02T13:16:50+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=20&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000790s ]
+
+[ 2018-02-02T13:20:44+08:00 ] ::1 /ysk/tp32/Api/user/getUserInfo?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000964s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.009279s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.012100s ]
+SQL: SELECT * FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000429s ]
+
+[ 2018-02-02T13:20:45+08:00 ] ::1 /ysk/tp32/Api/user/getUserInfo?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000802s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006101s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006836s ]
+SQL: SELECT * FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000244s ]
+
+[ 2018-02-02T13:20:46+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000973s ]
+
+[ 2018-02-02T13:20:46+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=20&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000678s ]
+
+[ 2018-02-02T13:20:46+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000675s ]
+
+[ 2018-02-02T13:20:46+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=20&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000736s ]
+
+[ 2018-02-02T13:39:06+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=20&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002257s ]
+
+[ 2018-02-02T13:39:06+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=20&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001015s ]
+
+[ 2018-02-02T13:39:53+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000675s ]
+
+[ 2018-02-02T13:39:53+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000695s ]
+
+[ 2018-02-02T13:51:47+08:00 ] ::1 /ysk/tp32/Api/user/getUserInfo?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000815s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007067s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.009059s ]
+SQL: SELECT * FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000251s ]
+
+[ 2018-02-02T13:51:48+08:00 ] ::1 /ysk/tp32/Api/user/getUserInfo?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000780s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007172s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.011205s ]
+SQL: SELECT * FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000388s ]
+
+[ 2018-02-02T13:51:49+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000738s ]
+
+[ 2018-02-02T13:51:49+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000953s ]
+
+[ 2018-02-02T13:53:23+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002227s ]
+
+[ 2018-02-02T13:53:23+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000723s ]
+
+[ 2018-02-02T13:53:34+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001116s ]
+
+[ 2018-02-02T13:53:34+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001012s ]
+
+[ 2018-02-02T13:53:37+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000762s ]
+
+[ 2018-02-02T13:53:43+08:00 ] ::1 /ysk/tp32/Api/article/detail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001061s ]
+ERR: 无法加载控制器:Article
+
+[ 2018-02-02T13:53:44+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000767s ]
+
+[ 2018-02-02T13:53:44+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000854s ]
+
+[ 2018-02-02T13:54:07+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001139s ]
+
+[ 2018-02-02T13:54:08+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000947s ]
+
+[ 2018-02-02T13:58:00+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.012760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023333s ]
+
+[ 2018-02-02T13:58:00+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000665s ]
+
+[ 2018-02-02T14:01:12+08:00 ] ::1 /ysk/tp32/Api/user/getUserInfo?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000966s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.009927s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.013362s ]
+SQL: SELECT * FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000243s ]
+
+[ 2018-02-02T14:01:13+08:00 ] ::1 /ysk/tp32/Api/user/getUserInfo?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000669s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.009884s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006405s ]
+SQL: SELECT * FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000231s ]
+
+[ 2018-02-02T14:01:14+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000794s ]
+
+[ 2018-02-02T14:01:14+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000733s ]
+
+[ 2018-02-02T14:01:32+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000924s ]
+
+[ 2018-02-02T14:01:32+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000893s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001315s ]
+
+[ 2018-02-02T14:01:39+08:00 ] ::1 /ysk/tp32/Api/user/getUserInfo?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000805s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.016010s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.017335s ]
+SQL: SELECT * FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000590s ]
+
+[ 2018-02-02T14:01:41+08:00 ] ::1 /ysk/tp32/Api/user/getUserInfo?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001047s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007075s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006349s ]
+SQL: SELECT * FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000231s ]
+
+[ 2018-02-02T14:01:41+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000696s ]
+
+[ 2018-02-02T14:01:41+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000837s ]
+
+[ 2018-02-02T14:06:40+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000841s ]
+
+[ 2018-02-02T14:06:40+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000838s ]
+
+[ 2018-02-02T14:08:05+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000692s ]
+
+[ 2018-02-02T14:08:05+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000710s ]
+
+[ 2018-02-02T14:08:51+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000815s ]
+
+[ 2018-02-02T14:08:51+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000776s ]
+
+[ 2018-02-02T14:09:02+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000894s ]
+
+[ 2018-02-02T14:09:02+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000924s ]
+
+[ 2018-02-02T14:14:17+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000782s ]
+
+[ 2018-02-02T14:14:17+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000949s ]
+
+[ 2018-02-02T14:14:24+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000668s ]
+
+[ 2018-02-02T14:14:24+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000716s ]
+
+[ 2018-02-02T14:14:56+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000696s ]
+
+[ 2018-02-02T14:14:57+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000779s ]
+
+[ 2018-02-02T14:16:06+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000704s ]
+
+[ 2018-02-02T14:16:06+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000507s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000819s ]
+
+[ 2018-02-02T14:24:49+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000790s ]
+
+[ 2018-02-02T14:24:50+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000740s ]
+
+[ 2018-02-02T14:25:17+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000720s ]
+
+[ 2018-02-02T14:25:17+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001155s ]
+
+[ 2018-02-02T14:25:36+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001629s ]
+
+[ 2018-02-02T14:25:36+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000719s ]
+
+[ 2018-02-02T16:08:33+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000785s ]
+
+[ 2018-02-02T16:08:34+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000666s ]
+
+[ 2018-02-02T16:16:48+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+
+[ 2018-02-02T16:16:48+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+
+[ 2018-02-02T16:21:30+08:00 ] ::1 /ysk/tp32/Api/user/getUserInfo?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000825s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007461s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.009356s ]
+SQL: SELECT * FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000260s ]
+
+[ 2018-02-02T16:21:31+08:00 ] ::1 /ysk/tp32/Api/user/getUserInfo?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000661s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005816s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007029s ]
+SQL: SELECT * FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000254s ]
+
+[ 2018-02-02T16:21:33+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000668s ]
+
+[ 2018-02-02T16:21:34+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+
+[ 2018-02-02T16:22:05+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000710s ]
+
+[ 2018-02-02T16:22:06+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000666s ]
+
+[ 2018-02-02T16:22:58+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000811s ]
+
+[ 2018-02-02T16:22:58+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000664s ]
+
+[ 2018-02-02T16:23:02+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000671s ]
+
+[ 2018-02-02T16:23:07+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+
+[ 2018-02-02T16:23:07+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000684s ]
+
+[ 2018-02-02T16:23:55+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000784s ]
+
+[ 2018-02-02T16:23:55+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000687s ]
+
+[ 2018-02-02T16:24:54+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000671s ]
+
+[ 2018-02-02T16:24:54+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
+
+[ 2018-02-02T16:25:04+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000666s ]
+
+[ 2018-02-02T16:25:04+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001355s ]
+
+[ 2018-02-02T16:26:12+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002578s ]
+
+[ 2018-02-02T16:26:12+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000686s ]
+
+[ 2018-02-02T16:26:17+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001242s ]
+
+[ 2018-02-02T16:34:52+08:00 ] ::1 /ysk/tp32/Api/user/getUserInfo?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001044s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005763s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007220s ]
+SQL: SELECT * FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000297s ]
+
+[ 2018-02-02T16:34:53+08:00 ] ::1 /ysk/tp32/Api/user/getUserInfo?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000745s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005671s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006960s ]
+SQL: SELECT * FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000234s ]
+
+[ 2018-02-02T16:35:30+08:00 ] ::1 /ysk/tp32/Api/user/getUserInfo?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000811s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006444s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.008204s ]
+SQL: SELECT * FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000300s ]
+
+[ 2018-02-02T16:35:31+08:00 ] ::1 /ysk/tp32/Api/user/getUserInfo?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000752s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006854s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006597s ]
+SQL: SELECT * FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000252s ]
+
+[ 2018-02-02T16:37:13+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000955s ]
+
+[ 2018-02-02T16:37:13+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000841s ]
+
+[ 2018-02-02T16:37:59+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000674s ]
+
+[ 2018-02-02T16:37:59+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000674s ]
+
+[ 2018-02-02T16:38:06+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000999s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002576s ]
+
+[ 2018-02-02T16:38:06+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000769s ]
+
+[ 2018-02-02T16:38:11+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000983s ]
+
+[ 2018-02-02T16:38:12+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000719s ]
+
+[ 2018-02-02T16:38:26+08:00 ] ::1 /ysk/tp32/Api/user/getUserInfo?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002250s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005884s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007472s ]
+SQL: SELECT * FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000238s ]
+
+[ 2018-02-02T16:38:27+08:00 ] ::1 /ysk/tp32/Api/user/getUserInfo?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000688s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005206s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006799s ]
+SQL: SELECT * FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000263s ]
+
+[ 2018-02-02T16:38:27+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000680s ]
+
+[ 2018-02-02T16:38:27+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000826s ]
+
+[ 2018-02-02T16:38:45+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
+
+[ 2018-02-02T16:38:45+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000988s ]
+
+[ 2018-02-02T16:48:54+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000808s ]
+
+[ 2018-02-02T16:48:54+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000675s ]
+
+[ 2018-02-02T16:49:10+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001716s ]
+
+[ 2018-02-02T16:49:10+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000811s ]
+
+[ 2018-02-02T16:49:58+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000717s ]
+
+[ 2018-02-02T16:49:58+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000803s ]
+
+[ 2018-02-02T16:50:18+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000678s ]
+
+[ 2018-02-02T16:50:18+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000934s ]
+
+[ 2018-02-02T16:50:33+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+
+[ 2018-02-02T16:50:33+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000820s ]
+
+[ 2018-02-02T16:51:20+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000795s ]
+
+[ 2018-02-02T16:51:20+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000739s ]
+
+[ 2018-02-02T16:51:56+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001214s ]
+
+[ 2018-02-02T16:51:56+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000886s ]
+
+[ 2018-02-02T16:52:23+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001058s ]
+
+[ 2018-02-02T16:52:23+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000775s ]
+
+[ 2018-02-02T16:52:30+08:00 ] ::1 /ysk/tp32/Api/user/getUserInfo?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000815s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006369s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007962s ]
+SQL: SELECT * FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000296s ]
+
+[ 2018-02-02T16:52:31+08:00 ] ::1 /ysk/tp32/Api/user/getUserInfo?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000774s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006252s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006627s ]
+SQL: SELECT * FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000235s ]
+
+[ 2018-02-02T16:52:32+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000715s ]
+
+[ 2018-02-02T16:52:32+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000947s ]
+
+[ 2018-02-02T16:56:31+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000878s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002316s ]
+
+[ 2018-02-02T16:56:31+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000904s ]
+
+[ 2018-02-02T17:04:25+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001699s ]
+
+[ 2018-02-02T17:04:26+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000828s ]
+
+[ 2018-02-02T17:10:46+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000812s ]
+
+[ 2018-02-02T17:10:46+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000925s ]
+
+[ 2018-02-02T17:11:12+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000727s ]
+
+[ 2018-02-02T17:11:12+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000747s ]
+
+[ 2018-02-02T17:12:35+08:00 ] ::1 /ysk/tp32/Api/user/getUserInfo?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003549s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.009671s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.013110s ]
+SQL: SELECT * FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000450s ]
+
+[ 2018-02-02T17:12:36+08:00 ] ::1 /ysk/tp32/Api/user/getUserInfo?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000769s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006523s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006864s ]
+SQL: SELECT * FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000234s ]
+
+[ 2018-02-02T17:12:37+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000730s ]
+
+[ 2018-02-02T17:12:37+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000730s ]
+
+[ 2018-02-02T17:12:49+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001018s ]
+
+[ 2018-02-02T17:12:49+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000972s ]
+
+[ 2018-02-02T17:12:49+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001656s ]
+
+[ 2018-02-02T17:12:49+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000905s ]
+
+[ 2018-02-02T17:12:49+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001774s ]
+
+[ 2018-02-02T17:12:49+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001144s ]
+
+[ 2018-02-02T17:12:49+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000856s ]
+
+[ 2018-02-02T17:12:49+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001125s ]
+
+[ 2018-02-02T17:13:14+08:00 ] ::1 /ysk/tp32/Api/user/getUserInfo?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005620s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006383s ]
+SQL: SELECT * FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000223s ]
+
+[ 2018-02-02T17:13:15+08:00 ] ::1 /ysk/tp32/Api/user/getUserInfo?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001085s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.010451s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006458s ]
+SQL: SELECT * FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000248s ]
+
+[ 2018-02-02T17:13:16+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000710s ]
+
+[ 2018-02-02T17:13:16+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000815s ]
+
+[ 2018-02-02T17:13:31+08:00 ] ::1 /ysk/tp32/Api/user/getUserInfo?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000964s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005949s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006857s ]
+SQL: SELECT * FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000220s ]
+
+[ 2018-02-02T17:13:32+08:00 ] ::1 /ysk/tp32/Api/user/getUserInfo?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000761s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.008078s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.009614s ]
+SQL: SELECT * FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000330s ]
+
+[ 2018-02-02T17:13:33+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000740s ]
+
+[ 2018-02-02T17:13:33+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000872s ]
+
+[ 2018-02-02T17:14:46+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001160s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001683s ]
+
+[ 2018-02-02T17:14:47+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000694s ]
+
+[ 2018-02-02T17:14:53+08:00 ] ::1 /ysk/tp32/Api/user/getUserInfo?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000945s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005748s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007424s ]
+SQL: SELECT * FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000254s ]
+
+[ 2018-02-02T17:14:54+08:00 ] ::1 /ysk/tp32/Api/user/getUserInfo?token=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000817s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005152s ]
+ERR: 1146:Table 'yskdemo.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006335s ]
+SQL: SELECT * FROM `admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000230s ]
+
+[ 2018-02-02T17:14:55+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000721s ]
+
+[ 2018-02-02T17:14:55+08:00 ] ::1 /ysk/tp32/Api/cardApi/cardList?pageIndex=0&pageSize=1&where=RegisterTime+%3C+%272018-2-3%27+and+RegisterTime+%3E+%272018-2-2%27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002543s ]
+
